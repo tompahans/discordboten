@@ -66,10 +66,12 @@ module.exports = {
 			let pizzaEmbed = new EmbedBuilder()
 				.setColor("Random")
 				.setTitle(
-					`Du rullade **#${pizza.id}. ${pizza.name}** från **${data[restaurant].name}**`
+					`Du rullade en **#${pizza.id}. ${pizza.name}** från **${data[restaurant].name}**`
 				)
 				.setDescription(
-					`*${pizza.ingredients}* ${pizza.price ? pizza.price : ""}`
+					`*${pizza.ingredients}* ${
+						pizza.price ? "***Pris: " + pizza.price + " SEK***" : ""
+					}`
 				)
 				.setThumbnail("https://i.imgur.com/nhf9C8V.png");
 
