@@ -34,7 +34,7 @@ module.exports = {
 
 			let helpEmbed = new EmbedBuilder()
 				.setColor("Random")
-				.setTitle("List of all my commands")
+				.setTitle("Lista över mina syntax")
 				.setDescription(
 					"`" + commands.map((command) => command.name).join("`, `") + "`"
 				)
@@ -42,23 +42,19 @@ module.exports = {
 				.addFields([
 					{
 						name: "Usage",
-						value: `\nYou can send \`${prefix}help [command name]\` to get info on a specific command!`,
+						value: `\nDu kan skicka \`${prefix}help [syntax namn]\` för att få mer hjälp om ett syntax!`,
 					},
 				]);
 
-			// Attempts to send embed in DMs.
+			// Attempts to reply info in channel.
 
-			return message.author
-				.send({ embeds: [helpEmbed] })
+			return message
+				.reply({ embeds: [helpEmbed] })
 
 				.then(() => {
 					if (message.channel.type === ChannelType.DM) return;
 
 					// On validation, reply back.
-
-					message.reply({
-						content: "I've sent you a DM with all my commands!",
-					});
 				})
 				.catch((error) => {
 					// On failing, throw error.
@@ -98,7 +94,7 @@ module.exports = {
 
 		let commandEmbed = new EmbedBuilder()
 			.setColor("Random")
-			.setTitle("Command Help");
+			.setTitle("Syntax information");
 
 		if (command.description)
 			commandEmbed.setDescription(`${command.description}`);
@@ -106,7 +102,7 @@ module.exports = {
 		if (command.aliases)
 			commandEmbed.addFields([
 				{
-					name: "Aliases",
+					name: "Alias",
 					value: `\`${command.aliases.join(", ")}\``,
 					inline: true,
 				},
@@ -119,7 +115,7 @@ module.exports = {
 		if (command.usage)
 			commandEmbed.addFields([
 				{
-					name: "Usage",
+					name: "Användning",
 					value: `\`${prefix}${command.name} ${command.usage}\``,
 					inline: true,
 				},

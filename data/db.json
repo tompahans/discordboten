@@ -1,0 +1,1820 @@
+{
+    "lillaitalien":{
+       "name":"Lilla Italien",
+       "meny":[
+          {
+             "id":1,
+             "name":"Margherita",
+             "ingredients":"tomatsås, ost"
+          },
+          {
+             "id":2,
+             "name":"Al Tonno",
+             "ingredients":"tonfisk"
+          },
+          {
+             "id":3,
+             "name":"Funghi",
+             "ingredients":"champinjoner"
+          },
+          {
+             "id":4,
+             "name":"Vesuvio",
+             "ingredients":"skinka"
+          },
+          {
+             "id":5,
+             "name":"Bologna",
+             "ingredients":"köttfärs, lök"
+          },
+          {
+             "id":6,
+             "name":"Salamio",
+             "ingredients":"salami"
+          },
+          {
+             "id":7,
+             "name":"Pepperoni",
+             "ingredients":"pepperonikorv"
+          },
+          {
+             "id":8,
+             "name":"Calzone",
+             "ingredients":"skinka"
+          },
+          {
+             "id":9,
+             "name":"Capricciosa",
+             "ingredients":"skinka, champinjoner"
+          },
+          {
+             "id":10,
+             "name":"Opera",
+             "ingredients":"skinka, tonfisk"
+          },
+          {
+             "id":11,
+             "name":"Napolitana",
+             "ingredients":"sardeller, oliver, kapris"
+          },
+          {
+             "id":12,
+             "name":"Hawaii",
+             "ingredients":"skinka, ananas"
+          },
+          {
+             "id":13,
+             "name":"Cacciatore",
+             "ingredients":"salami, lök, oliver"
+          },
+          {
+             "id":14,
+             "name":"Big Ben",
+             "ingredients":"bacon, lök, ägg"
+          },
+          {
+             "id":15,
+             "name":"Tropicana",
+             "ingredients":"skinka, ananas, banan, curry"
+          },
+          {
+             "id":16,
+             "name":"Vegetariana",
+             "ingredients":"champinjoner, lök, paprika, oliver, kronärtskocka, sparris"
+          },
+          {
+             "id":17,
+             "name":"Milano",
+             "ingredients":"skinka, gorgonzola"
+          },
+          {
+             "id":18,
+             "name":"Fresca",
+             "ingredients":"champinjoner, lök, paprika, färsk tomat, vitlök"
+          },
+          {
+             "id":19,
+             "name":"Mexicana",
+             "ingredients":"köttfärs, lök, paprika, majs, tacokrydda, tacosås"
+          },
+          {
+             "id":20,
+             "name":"Kebabpizza",
+             "ingredients":"kebab, lök, peperoni, färsk tomat, tomatsås (rödsås), vitlökssås"
+          },
+          {
+             "id":21,
+             "name":"Gringo",
+             "ingredients":"skinka, jalapeños, tacosås, tacokrydda, gräddfil"
+          },
+          {
+             "id":22,
+             "name":"Piazza",
+             "ingredients":"räkor, vitlök, färsk persilja"
+          },
+          {
+             "id":23,
+             "name":"Venezia",
+             "ingredients":"räkor, champinjoner"
+          },
+          {
+             "id":24,
+             "name":"Amore",
+             "ingredients":"pepperonikorv, räkor, lök"
+          },
+          {
+             "id":25,
+             "name":"Marinara",
+             "ingredients":"räkor, musslor"
+          },
+          {
+             "id":26,
+             "name":"Bussola",
+             "ingredients":"räkor, skinka"
+          },
+          {
+             "id":27,
+             "name":"Gyrospizza",
+             "ingredients":"gyros, lök, peperoni, tomat, gyrosdressing"
+          },
+          {
+             "id":28,
+             "name":"Bagarens special",
+             "ingredients":"kebab, isbergssallad, tomat, peperoni, rödlök, tomatsås(rödsås), vitlökssås"
+          },
+          {
+             "id":29,
+             "name":"Romana",
+             "ingredients":"skinka, räkor, champinjoner"
+          },
+          {
+             "id":30,
+             "name":"Quattro Stagioni",
+             "ingredients":"skinka, musslor, räkor, champinjoner, kronärtskocka, oliver"
+          },
+          {
+             "id":31,
+             "name":"Al Capone",
+             "ingredients":"fläskfilé, banan, curry"
+          },
+          {
+             "id":32,
+             "name":"Calzone special",
+             "ingredients":"skinka, räkor, champinjoner"
+          },
+          {
+             "id":33,
+             "name":"Al pepe",
+             "ingredients":"skinka, salami, pepperonikorv, ägg"
+          },
+          {
+             "id":34,
+             "name":"Gratinate",
+             "ingredients":"skinka, räkor, champinjoner, lök, paprika, gratinerad ost"
+          },
+          {
+             "id":35,
+             "name":"Papa galo",
+             "ingredients":"(inbakad), gorgonzola, salami, vitlök"
+          },
+          {
+             "id":36,
+             "name":"Al pollo",
+             "ingredients":"kyckling, ananas, curry"
+          },
+          {
+             "id":37,
+             "name":"Torpedo",
+             "ingredients":"fetaost, köttfärs, salami, lök, ruccola"
+          },
+          {
+             "id":38,
+             "name":"Provencale",
+             "ingredients":"oxfilé, champinjoner, lök, bearnaisesås"
+          },
+          {
+             "id":39,
+             "name":"Lilla Italien",
+             "ingredients":"fläskfile, lök, färsk tomat, kantareller, bearnaisesås"
+          },
+          {
+             "id":40,
+             "name":"Al doppio",
+             "ingredients":"(dubbel inbakad) skinka, räkor, champinjoner"
+          },
+          {
+             "id":41,
+             "name":"Sommargibile",
+             "ingredients":"(halv inbakad) oxfilé, champinjoner, lök, färsk tomat, bearnaisesås"
+          },
+          {
+             "id":42,
+             "name":"Bandito",
+             "ingredients":"oxfilé, champinjoner, lök, färsk vitlök, tacosås, tacokrydda, jalapeños"
+          },
+          {
+             "id":43,
+             "name":"Honungspizza",
+             "ingredients":"kyckling, ananas, jalapeños, srirachasås, honung"
+          },
+          {
+             "id":44,
+             "name":"Madre natura",
+             "ingredients":"tomatsås, vegansk ost, zucchini, aubergine, spenat, purjolök, avokado, färsk basilika"
+          },
+          {
+             "id":45,
+             "name":"Sogno vegano",
+             "ingredients":"tomatsås, vegansk ost, vegansk sojakött, champinjoner, soltorkad tomat, paprika, rödlök, ruccola"
+          },
+          {
+             "id":46,
+             "name":"Pollo grande",
+             "ingredients":"kyckling, spenat, zucchini, färsk vitlök"
+          },
+          {
+             "id":47,
+             "name":"Capo",
+             "ingredients":"soltorkad tomat, champinjoner, färsk basilika, färsk vitlök"
+          },
+          {
+             "id":48,
+             "name":"Bresaola",
+             "ingredients":"champinjoner, färsk tomat, lök, bresaola, pinjenötter, färsk basilika"
+          },
+          {
+             "id":49,
+             "name":"Mezzaluna",
+             "ingredients":"prosciutto, ruccola, olivolja, havssalt, skinka"
+          },
+          {
+             "id":50,
+             "name":"Orto",
+             "ingredients":"aubergine, paprika, champinjoner, zucchini, tomater, vitlök, oliver"
+          },
+          {
+             "id":51,
+             "name":"Pulcino",
+             "ingredients":"kyckling, lök, spenat, chevréost, röd pesto, ruccola"
+          },
+          {
+             "id":52,
+             "name":"Pronto",
+             "ingredients":"pepperonikorv, fetaost, soltorkad tomat, färsk basilika"
+          },
+          {
+             "id":53,
+             "name":"Verde",
+             "ingredients":"zucchini, aubergine, spenat, soltorkad tomat"
+          },
+          {
+             "id":54,
+             "name":"Quattro formaggi",
+             "ingredients":"brie, gorgonzola, parmesan, färsk basilika"
+          },
+          {
+             "id":55,
+             "name":"Pomodore",
+             "ingredients":"prosciutto, mortadella, färsk basilika"
+          },
+          {
+             "id":56,
+             "name":"Fantasia",
+             "ingredients":"paprika, ananas, banan, soltorkad tomat, färsk basilika"
+          },
+          {
+             "id":57,
+             "name":"Ciao bella",
+             "ingredients":"oxfilé, soltorkad tomat, vitlök, olivolja, havssalt"
+          },
+          {
+             "id":58,
+             "name":"Italiano",
+             "ingredients":"prosciutto, mortadella, salami, oliver, färska tomater"
+          },
+          {
+             "id":59,
+             "name":"Cozze",
+             "ingredients":"blå musslor, räkor, vitlök, färsk persilja"
+          },
+          {
+             "id":60,
+             "name":"Frutti di mare",
+             "ingredients":"blå musslor, scampi, röd kaviar, vitlök, lök"
+          },
+          {
+             "id":61,
+             "name":"Parma",
+             "ingredients":"prosciutto, lök, oliver, tomater, ruccola"
+          },
+          {
+             "id":62,
+             "name":"Al diavolo",
+             "ingredients":"italiensk stark salami, lök, paprika, oliver, ruccola"
+          },
+          {
+             "id":63,
+             "name":"Chévre",
+             "ingredients":"chévreost, rödlök, valnötter, honung, körsbärstomater, ruccola"
+          },
+          {
+             "id":64,
+             "name":"Con salsiccia",
+             "ingredients":"salsiccia, körsbärstomater, champinjoner, grana padano, färsk basilika"
+          }
+       ]
+    },
+    "pizzahornet":{
+       "name":"Pizzeria Hörnet",
+       "meny":[
+          {
+             "id":1,
+             "name":"Margherita",
+             "ingredients":"tomatsås, ost"
+          },
+          {
+             "id":2,
+             "name":"Funghi",
+             "ingredients":"färska champinjoner"
+          },
+          {
+             "id":3,
+             "name":"Vesuvio",
+             "ingredients":"skinka"
+          },
+          {
+             "id":4,
+             "name":"Pescatore",
+             "ingredients":"tonfisk"
+          },
+          {
+             "id":5,
+             "name":"Chili",
+             "ingredients":"skinka, lök, chilikrydda"
+          },
+          {
+             "id":6,
+             "name":"Capricciosa",
+             "ingredients":"skinka, färska champinjoner"
+          },
+          {
+             "id":7,
+             "name":"Hawaii",
+             "ingredients":"skinka, ananas"
+          },
+          {
+             "id":8,
+             "name":"Bussola",
+             "ingredients":"skinka, räkor"
+          },
+          {
+             "id":9,
+             "name":"Riviera",
+             "ingredients":"färska champinjoner, räkor"
+          },
+          {
+             "id":10,
+             "name":"Sole Mio",
+             "ingredients":"skinka, tonfisk"
+          },
+          {
+             "id":11,
+             "name":"Bolognese",
+             "ingredients":"färska champinjoner, lök, köttfärs"
+          },
+          {
+             "id":12,
+             "name":"Taormina",
+             "ingredients":"bacon, lök"
+          },
+          {
+             "id":13,
+             "name":"Napoletana",
+             "ingredients":"sardeller, oliver"
+          },
+          {
+             "id":14,
+             "name":"Marinara",
+             "ingredients":"räkor, musslor"
+          },
+          {
+             "id":15,
+             "name":"Cacciatore",
+             "ingredients":"salami, lök"
+          },
+          {
+             "id":16,
+             "name":"Venezia",
+             "ingredients":"salami, färsk paprika"
+          },
+          {
+             "id":17,
+             "name":"Pepperoni",
+             "ingredients":"salami, skinka, lök"
+          },
+          {
+             "id":18,
+             "name":"Della Casa",
+             "ingredients":"salami, färska tomater, färska champinjoner, lök"
+          },
+          {
+             "id":19,
+             "name":"Pizza Esse",
+             "ingredients":"bacon, salami, lök, ägg"
+          },
+          {
+             "id":20,
+             "name":"Vegetariana",
+             "ingredients":"färska champinjoner, lök, paprika, oliver, kronärtskocka"
+          },
+          {
+             "id":21,
+             "name":"Mille Fiori",
+             "ingredients":"skinka, räkor, färska champinjoner"
+          },
+          {
+             "id":22,
+             "name":"Del Sole",
+             "ingredients":"skinka, tonfisk, räkor"
+          },
+          {
+             "id":23,
+             "name":"Quattro Stagioni",
+             "ingredients":"skinka, färska champinjoner, räkor, oliver, musslor, kronärtskocksbottnar"
+          },
+          {
+             "id":24,
+             "name":"La Banana",
+             "ingredients":"skinka, ananas, banan, curry"
+          },
+          {
+             "id":25,
+             "name":"Pollo",
+             "ingredients":"kyckling, ananas, färsk paprika, curry"
+          },
+          {
+             "id":26,
+             "name":"Pizza Alex",
+             "ingredients":"kyckling, banan, curry, jordnötter"
+          },
+          {
+             "id":27,
+             "name":"Indiana",
+             "ingredients":"räkor, ananas, färsk paprika, oliver, lök, curry"
+          },
+          {
+             "id":28,
+             "name":"Amalfi",
+             "ingredients":"räkor, marinerad vitlök, persilja"
+          },
+          {
+             "id":29,
+             "name":"Mozzarella",
+             "ingredients":"mozzarella, skinka, färska tomater"
+          },
+          {
+             "id":30,
+             "name":"Parmigiano",
+             "ingredients":"parmigiano, skinka, färska tomater"
+          },
+          {
+             "id":31,
+             "name":"La Gorgonzola",
+             "ingredients":"gorgonzola, skinka"
+          },
+          {
+             "id":32,
+             "name":"Gratinate",
+             "ingredients":"färska champinjoner, räkor, skinka, lök, färsk paprika"
+          },
+          {
+             "id":33,
+             "name":"Tempesta",
+             "ingredients":"fårost, spenat, färska tomater, ruccola"
+          },
+          {
+             "id":34,
+             "name":"Kebabpizza",
+             "ingredients":"kebabkött, lök, fefferoni, vitlökssås"
+          },
+          {
+             "id":35,
+             "name":"Kebab Gorgon",
+             "ingredients":"kebabkött, gorgonzola, tomater, gurka, isbergssallad, vitlökssås"
+          },
+          {
+             "id":36,
+             "name":"Kebab Fårost",
+             "ingredients":"kebabkött, fårost, tomater, gurka, isbergssallad, vilökssås"
+          },
+          {
+             "id":37,
+             "name":"Viking",
+             "ingredients":"kebabkött, tomater, lök, feferoni, isbergssallad, vitlökssås"
+          },
+          {
+             "id":38,
+             "name":"Kebab Special",
+             "ingredients":"champinjoner, tomater, fefferoni, kebabkött, vitlökssås"
+          },
+          {
+             "id":39,
+             "name":"Mexicana Due",
+             "ingredients":"kyckling, jalapeno, lök, vitlök, tacosås"
+          },
+          {
+             "id":40,
+             "name":"Azteka",
+             "ingredients":"skinka"
+          },
+          {
+             "id":41,
+             "name":"Mexicana",
+             "ingredients":"köttfärs, lök, pepperoni, vitlök, tacosås, tacokrydda, jalapeno"
+          },
+          {
+             "id":42,
+             "name":"Acapulco",
+             "ingredients":"oxfilé, champinjoner, lök, tacosås, tacokrydda, jalapeno"
+          },
+          {
+             "id":43,
+             "name":"Calzone",
+             "ingredients":"skinka"
+          },
+          {
+             "id":44,
+             "name":"Gonzone",
+             "ingredients":"Gorgonzola, skinka"
+          },
+          {
+             "id":45,
+             "name":"Calzone Special",
+             "ingredients":"skinka, räkor, färska champinjoner"
+          },
+          {
+             "id":46,
+             "name":"IL Re ",
+             "ingredients":"(dubbelinbakad) skinka, räkor, färska champinjoner"
+          },
+          {
+             "id":47,
+             "name":"La Regina",
+             "ingredients":"(dubbelinbakad) salami, fefferoni, färska champinjoner"
+          },
+          {
+             "id":48,
+             "name":"Ciao Ciao",
+             "ingredients":"(halvinbakad) oxfilé, färska champinjoner, lök, tomater, bearnaisesås"
+          },
+          {
+             "id":49,
+             "name":"Pizza Cheddarost",
+             "ingredients":"cheddarost, oxfile, jalapeno, tomater, röda bönor, ruccola"
+          },
+          {
+             "id":50,
+             "name":"Pecora",
+             "ingredients":"oxfilé, gorgonzola, fårost, färsk paprika"
+          },
+          {
+             "id":51,
+             "name":"Oxfilé",
+             "ingredients":"oxfilé, färska champinjoner, färska tomater, bearnaise"
+          },
+          {
+             "id":52,
+             "name":"Quattro Formaggi",
+             "ingredients":"4 sorters italiensk ost, skinka, tomater, basilika"
+          },
+          {
+             "id":53,
+             "name":"Gambero",
+             "ingredients":"scampi, räkor, vitlök, persilja"
+          },
+          {
+             "id":54,
+             "name":"Frutti di Mare",
+             "ingredients":"musslor i skal, räkor, scampi, marinerad vitlök"
+          },
+          {
+             "id":55,
+             "name":"Hörnet",
+             "ingredients":"mozzarella, italiensk salami, marinerad vitlök, kapris"
+          },
+          {
+             "id":56,
+             "name":"Salamino",
+             "ingredients":"mozzarella, stark italiensk salami, tomater, basilika"
+          },
+          {
+             "id":57,
+             "name":"Ortolana",
+             "ingredients":"mozzarella, tomater, champinjoner, oliver, grillad paprika, zucchini, aubergine"
+          },
+          {
+             "id":58,
+             "name":"Crudo",
+             "ingredients":"mozzarella, prosciutto, grillad paprika, oliver"
+          },
+          {
+             "id":59,
+             "name":"Forno",
+             "ingredients":"mozzarella, prosciutto, champinjoner, ruccola"
+          },
+          {
+             "id":60,
+             "name":"Spinaci",
+             "ingredients":"spenat, fårost, färsk sparris, kronärtskocka, grillad paprika, ruccola"
+          },
+          {
+             "id":61,
+             "name":"Pesto",
+             "ingredients":"spenat, fårost, pesto, champinjoner, färsk sparris"
+          },
+          {
+             "id":62,
+             "name":"Yasmine",
+             "ingredients":"mozzarella, fårost, pesto, champinjoner, ruccola, grillad paprika"
+          },
+          {
+             "id":63,
+             "name":"Le Chef",
+             "ingredients":"mozzarella, prosciutto, soltorkade tomater, oliver, basilika, svartpeppar"
+          },
+          {
+             "id":64,
+             "name":"Bresaola",
+             "ingredients":"mozzarella, pecorino, bresaola, ruccola, parmesan"
+          },
+          {
+             "id":65,
+             "name":"Melissa",
+             "ingredients":"bresola, pinjenötter, mozzarella, soltorkade tomater, ruccola, parmesan"
+          },
+          {
+             "id":66,
+             "name":"Mezza Luna",
+             "ingredients":"skinka, mozarella, prosciutto, ruccola, havssalt"
+          },
+          {
+             "id":67,
+             "name":"Honolulu",
+             "ingredients":"skinka, ananas, banan, curry, räkor"
+          },
+          {
+             "id":68,
+             "name":"Arizona",
+             "ingredients":"skinka, bacon, lök, champinjoner, tomater"
+          },
+          {
+             "id":69,
+             "name":"San Francisco",
+             "ingredients":"skinka, lök, champinjoner, oliver, paprika, tomater"
+          },
+          {
+             "id":70,
+             "name":"California",
+             "ingredients":"gorgonzola, skinka, tomater, lök"
+          },
+          {
+             "id":71,
+             "name":"Texas",
+             "ingredients":"oxfilé, tomater, paprika, pepperoni"
+          },
+          {
+             "id":72,
+             "name":"Dallas",
+             "ingredients":"oxfilé, tomater, champinjoner, bearnaisesås"
+          }
+       ]
+    },
+    "chrilles":{
+       "name":"Chrilles Pizzeria",
+       "meny":[
+          {
+             "id":1,
+             "name":"Margherita",
+             "ingredients":"tomatsås, ost"
+          },
+          {
+             "id":2,
+             "name":"Campagnola",
+             "ingredients":"champinjoner"
+          },
+          {
+             "id":3,
+             "name":"Vesuvio",
+             "ingredients":"skinka"
+          },
+          {
+             "id":4,
+             "name":"Capricciosa",
+             "ingredients":"skinka, champinjoner"
+          },
+          {
+             "id":5,
+             "name":"Hawaii",
+             "ingredients":"skinka, ananas"
+          },
+          {
+             "id":6,
+             "name":"Italia",
+             "ingredients":"skinka, räkor, champinjoner"
+          },
+          {
+             "id":7,
+             "name":"Romana",
+             "ingredients":"skinka, räkor"
+          },
+          {
+             "id":8,
+             "name":"Opera",
+             "ingredients":"skinka, tonfisk"
+          },
+          {
+             "id":9,
+             "name":"Al Tono",
+             "ingredients":"tonfisk"
+          },
+          {
+             "id":10,
+             "name":"Bolognese",
+             "ingredients":"köttfärs, lök"
+          },
+          {
+             "id":11,
+             "name":"La Banana",
+             "ingredients":"skinka, banan, curry"
+          },
+          {
+             "id":12,
+             "name":"Rimini",
+             "ingredients":"räkor, champinjoner"
+          },
+          {
+             "id":13,
+             "name":"Primavera",
+             "ingredients":"salami, lök"
+          },
+          {
+             "id":14,
+             "name":"Marinara",
+             "ingredients":"räkor, musslor"
+          },
+          {
+             "id":15,
+             "name":"Tutti Frutti",
+             "ingredients":"ananas, banan, curry"
+          },
+          {
+             "id":16,
+             "name":"Rossana",
+             "ingredients":"räkor, champinjoner, kronärtskocka"
+          },
+          {
+             "id":17,
+             "name":"Gorgonzola",
+             "ingredients":"skinka, gorgonzola"
+          },
+          {
+             "id":18,
+             "name":"Tyresö Special",
+             "ingredients":"skinka, paprika, champinjoner, lök"
+          },
+          {
+             "id":19,
+             "name":"Bassimo",
+             "ingredients":"skinka, salami, lök, oliver"
+          },
+          {
+             "id":20,
+             "name":"Vegetarisk",
+             "ingredients":"champinjoner, paprika, lök, kronärtskocka, oliver"
+          },
+          {
+             "id":21,
+             "name":"Bollmora Special",
+             "ingredients":"kyckling, champinjoner, lök"
+          },
+          {
+             "id":22,
+             "name":"Tropicana",
+             "ingredients":"skinka, ananas, banan, curry"
+          },
+          {
+             "id":23,
+             "name":"Athena",
+             "ingredients":"köttfärs, bearnaisesås"
+          },
+          {
+             "id":24,
+             "name":"Palermo",
+             "ingredients":"räkor, musslor, tonfisk"
+          },
+          {
+             "id":25,
+             "name":"Ananas",
+             "ingredients":"skinka, räkor, ananas, curry"
+          },
+          {
+             "id":26,
+             "name":"Mamma Mia",
+             "ingredients":"köttfärs, salami, lök, paprika"
+          },
+          {
+             "id":27,
+             "name":"Big Ben",
+             "ingredients":"Bacon, ägg, lök"
+          },
+          {
+             "id":28,
+             "name":"Quattro Stagioni",
+             "ingredients":"skinka, räkor, champinjoner, musslor, oliver, kronärtskocka"
+          },
+          {
+             "id":29,
+             "name":"Chrilles Special",
+             "ingredients":"skinka, musslor, champinjoner, tonfisk, räkor, paprika, kronärtskocka"
+          },
+          {
+             "id":30,
+             "name":"Calzone",
+             "ingredients":"(Inbakad) skinka"
+          },
+          {
+             "id":31,
+             "name":"Calzone special",
+             "ingredients":"(Inbakad) skinka, räkor, champinjoner"
+          },
+          {
+             "id":32,
+             "name":"Tefat",
+             "ingredients":"(Dubbelinbakad) skinka, räkor, champinjoner"
+          },
+          {
+             "id":33,
+             "name":"Apollo",
+             "ingredients":"fetaost, bacon, lök, oliver"
+          },
+          {
+             "id":34,
+             "name":"Peasana",
+             "ingredients":"fetaost, salami, tomater"
+          },
+          {
+             "id":35,
+             "name":"Gogiano",
+             "ingredients":"fetaost, tomater, lök, champinjoner, paprika"
+          },
+          {
+             "id":36,
+             "name":"Kebabpizza",
+             "ingredients":"kebabkött, fefferoni, isbergssallad, lök, tomater, kebabsås, vitlökssås"
+          },
+          {
+             "id":37,
+             "name":"Gyrospizza",
+             "ingredients":"gyroskött, fefferoni, isbergssallad, lök, tomater, gyrossås, vitlökssås"
+          },
+          {
+             "id":38,
+             "name":"Azteka",
+             "ingredients":"skinka, tacosås, tzatziki, jalapeños, tacokrydda"
+          },
+          {
+             "id":39,
+             "name":"Mexicana",
+             "ingredients":"köttfärs, tacosås, vitlök, tacokrydda, jalapeños"
+          },
+          {
+             "id":40,
+             "name":"Acapulco",
+             "ingredients":"oxfilé, champinjoner, lök, tacosås, vitlök, jalapeños"
+          },
+          {
+             "id":41,
+             "name":"Venedig",
+             "ingredients":"oxfilé, champinjoner, bearnaisesås"
+          },
+          {
+             "id":42,
+             "name":"Milano",
+             "ingredients":"oxfilé, gorgonzolaost, fefferoni"
+          },
+          {
+             "id":43,
+             "name":"Liverno",
+             "ingredients":"oxfilé, lök, champinjoner, bearnaisesås, tomater"
+          },
+          {
+             "id":44,
+             "name":"Toscana",
+             "ingredients":"oxfilé, fetaost, oliver, tomater, fefferoni"
+          },
+          {
+             "id":45,
+             "name":"Quattro Formaggi",
+             "ingredients":"mozzarella, fetaost, pizzaost, gorgonzola, ruccola"
+          },
+          {
+             "id":46,
+             "name":"Roma",
+             "ingredients":"parmaskinka, tomat, ruccola"
+          },
+          {
+             "id":47,
+             "name":"Solemio",
+             "ingredients":"salami, skinka, champinjoner, ruccola"
+          },
+          {
+             "id":48,
+             "name":"Amore",
+             "ingredients":"skinka, köttfärs, lök, bearnaisesås, ruccola"
+          },
+          {
+             "id":49,
+             "name":"Seafoodpizza",
+             "ingredients":"räkor, musslor, tonfisk, vitlök, ruccola"
+          },
+          {
+             "id":50,
+             "name":"Napoli",
+             "ingredients":"fläskfilé, champinjoner, lök, paprika, bearnaisesås, ruccola"
+          },
+          {
+             "id":51,
+             "name":"Ciao Ciao",
+             "ingredients":"oxfilé, champinjoner, lök, paprika, bearnaisesås, ruccola"
+          }
+       ]
+    },
+    "kaktusen":{
+       "name":"Kaktusen Pizzeria",
+       "meny":[
+          {
+             "id":1,
+             "name":"Margherita",
+             "ingredients":"tomatsås, ost"
+          },
+          {
+             "id":2,
+             "name":"Vesuvio",
+             "ingredients":"skinka"
+          },
+          {
+             "id":3,
+             "name":"Funghi",
+             "ingredients":"champinjoner"
+          },
+          {
+             "id":4,
+             "name":"Al Tonno",
+             "ingredients":"tonfisk"
+          },
+          {
+             "id":5,
+             "name":"Cappricciosa",
+             "ingredients":"skinka, champinjoner"
+          },
+          {
+             "id":6,
+             "name":"Bussola",
+             "ingredients":"skinka, räkor"
+          },
+          {
+             "id":7,
+             "name":"Opera",
+             "ingredients":"skinka, tonfisk"
+          },
+          {
+             "id":8,
+             "name":"Marinara",
+             "ingredients":"räkor, musslor"
+          },
+          {
+             "id":9,
+             "name":"Napoletana",
+             "ingredients":"sardeller, oliver"
+          },
+          {
+             "id":10,
+             "name":"Taormina",
+             "ingredients":"bacon, lök"
+          },
+          {
+             "id":11,
+             "name":"Bologna",
+             "ingredients":"köttfärs, lök"
+          },
+          {
+             "id":12,
+             "name":"Hawaii",
+             "ingredients":"skinka, ananas"
+          },
+          {
+             "id":13,
+             "name":"Rosa Pantern",
+             "ingredients":"räkor, persilja"
+          },
+          {
+             "id":14,
+             "name":"Cacciatore",
+             "ingredients":"salami, lök"
+          },
+          {
+             "id":15,
+             "name":"Venezia",
+             "ingredients":"salami, paprika"
+          },
+          {
+             "id":16,
+             "name":"Sorrento",
+             "ingredients":"salami, ananas"
+          },
+          {
+             "id":17,
+             "name":"Fefferoni",
+             "ingredients":"salami, peperoni"
+          },
+          {
+             "id":18,
+             "name":"Big Ben",
+             "ingredients":"bacon, ägg"
+          },
+          {
+             "id":19,
+             "name":"Gorgonzola",
+             "ingredients":"gorgonzola"
+          },
+          {
+             "id":20,
+             "name":"Romana",
+             "ingredients":"skinka, räkor, champinjoner"
+          },
+          {
+             "id":21,
+             "name":"Pescatora",
+             "ingredients":"räkor, musslor, champinjoner"
+          },
+          {
+             "id":22,
+             "name":"Quattro Stagioni",
+             "ingredients":"skinka, champinjoner, räkor, musslor, oliver, kronärtskocka"
+          },
+          {
+             "id":23,
+             "name":"Vegetarisk",
+             "ingredients":"champinjoner, lök, paprika, oliver, kronärtskocka"
+          },
+          {
+             "id":24,
+             "name":"Manolito",
+             "ingredients":"skinka, räkor, sparris"
+          },
+          {
+             "id":25,
+             "name":"Maffioso",
+             "ingredients":"köttfärs, lök, vitlök, svartpeppar"
+          },
+          {
+             "id":26,
+             "name":"Tropicana",
+             "ingredients":"skinka, banan, ananas, curry"
+          },
+          {
+             "id":27,
+             "name":"Kebabpizza",
+             "ingredients":"kebabkött, färska tomater, peperoni, kebab sås"
+          },
+          {
+             "id":28,
+             "name":"Pepperonikorvpizza",
+             "ingredients":"äkta pepperonikorv, färsk paprika, lök"
+          },
+          {
+             "id":29,
+             "name":"Indiana",
+             "ingredients":"skinka, banan räkor, ananas"
+          },
+          {
+             "id":30,
+             "name":"Kycklingpizza",
+             "ingredients":"kyckling, banan, räkor, ananas"
+          },
+          {
+             "id":31,
+             "name":"Provencale",
+             "ingredients":"(gratinerad) skinka, champinjoner, räkor, lök, paprika"
+          },
+          {
+             "id":32,
+             "name":"Siesta",
+             "ingredients":"gorgonzola, broccoli, vitlök"
+          },
+          {
+             "id":33,
+             "name":"Milano",
+             "ingredients":"gorgonzola, skinka"
+          },
+          {
+             "id":34,
+             "name":"Mexicana",
+             "ingredients":"köttfärs, paprika, majs, lök, kryddor, tabasco"
+          },
+          {
+             "id":35,
+             "name":"Calzone",
+             "ingredients":"skinka"
+          },
+          {
+             "id":36,
+             "name":"Calzone Special",
+             "ingredients":"skinka, räkor"
+          },
+          {
+             "id":37,
+             "name":"Mona Lisa",
+             "ingredients":"skinka, champinjoner"
+          },
+          {
+             "id":38,
+             "name":"Kaktus",
+             "ingredients":"köttfärs, vitlök, lök, champinjoner, tabasco, svartpeppar"
+          },
+          {
+             "id":39,
+             "name":"Viking",
+             "ingredients":"kebab, isberg, tomat, lök, pepperoni, sås"
+          },
+          {
+             "id":40,
+             "name":"Tefat",
+             "ingredients":"(dubbel inbakad) skinka, räkor, champinjoner"
+          },
+          {
+             "id":41,
+             "name":"Tyresö Special",
+             "ingredients":"oxfilé, lök, vitlök, bearnaisesås"
+          },
+          {
+             "id":42,
+             "name":"Bollmora Special",
+             "ingredients":"färska champinjoner, färsk tomat, färsk paprika, oxfilé, bearnaisesås"
+          },
+          {
+             "id":43,
+             "name":"Amadeus",
+             "ingredients":"fläskfilé, lök, färska tomater, champinjoner, bearnaisesås"
+          },
+          {
+             "id":44,
+             "name":"Azteka",
+             "ingredients":"skinka, tacokryddmix, jalapeno, gräddfil, tacosås"
+          },
+          {
+             "id":45,
+             "name":"Taco",
+             "ingredients":"köttfärs, tacokryddmix, vitlök, lök, jalapeno, tacosås"
+          },
+          {
+             "id":46,
+             "name":"Acapulco",
+             "ingredients":"oxfilé, champinjoner, vitlök, lök, tacokryddmix, jalapeno, tacosås"
+          },
+          {
+             "id":47,
+             "name":"Puebla",
+             "ingredients":"skinka, tacokryddmix, kebabkött, tacosås"
+          },
+          {
+             "id":48,
+             "name":"Inka",
+             "ingredients":"fläskfilé, paprika, lök, färska tomater, bearnaisesås, jalapeno"
+          },
+          {
+             "id":49,
+             "name":"Den Gode",
+             "ingredients":"kyckling, ananas, curry, jalapeno, paprika, tacosås"
+          },
+          {
+             "id":50,
+             "name":"Gringo",
+             "ingredients":"skinka, köttfärs, salami, bacon, färska tomater"
+          },
+          {
+             "id":51,
+             "name":"Färsk Grönsakspizza",
+             "ingredients":"lök, färska champinjoner, färsk paprika, färska tomater, vitlök, persilja"
+          },
+          {
+             "id":52,
+             "name":"Spenat",
+             "ingredients":"spenat, fårost, färska champinjoner, färska tomater, vitlök"
+          },
+          {
+             "id":53,
+             "name":"Al Capone",
+             "ingredients":"fläskfilé, banan, curry"
+          },
+          {
+             "id":54,
+             "name":"Piraten",
+             "ingredients":"crabfish, svart kaviar, räkor"
+          },
+          {
+             "id":55,
+             "name":"Ancona",
+             "ingredients":"fläskfilé, gorgonzola, purjolök, champinjoner"
+          },
+          {
+             "id":56,
+             "name":"Verona",
+             "ingredients":"salami, purjolök, färska champinjoner, färska tomater"
+          },
+          {
+             "id":57,
+             "name":"Levent Special",
+             "ingredients":"kebabkött/sås, isbergsallad, lök, färska tomater, peperoni"
+          },
+          {
+             "id":58,
+             "name":"Siciliana",
+             "ingredients":"köttfärssås, räkor, salami, lök, tabasco"
+          },
+          {
+             "id":59,
+             "name":"Fårost Pizza",
+             "ingredients":"färska tomater, färks paprika, lök, peperoni, fårost, salami"
+          },
+          {
+             "id":60,
+             "name":"Il Capo",
+             "ingredients":"marinerad oxfilé, gorgonzola"
+          },
+          {
+             "id":61,
+             "name":"Gudfadern",
+             "ingredients":"marinerad oxfilé, champinjoner, lök"
+          },
+          {
+             "id":62,
+             "name":"Amigo",
+             "ingredients":"marinerad oxfilé, bearnaisesås"
+          },
+          {
+             "id":63,
+             "name":"Le Chef",
+             "ingredients":"färska tomater, lufttorkad skinka, oliver, basilika"
+          },
+          {
+             "id":64,
+             "name":"V.M.S",
+             "ingredients":"mozzarella, oxfilé, pepperonikorv, lök, vitlök, persilja"
+          },
+          {
+             "id":65,
+             "name":"Mezaluna",
+             "ingredients":"(halv inbakad) inbakad del:tomat, mozzarella, skinka, öppen del: tomat, mozzarella, lufttorkad skinka, ruccola, havssalt"
+          },
+          {
+             "id":66,
+             "name":"Inter",
+             "ingredients":"fläskfilé, färska tomater, färska champinjoner, bearnaisesås"
+          },
+          {
+             "id":67,
+             "name":"Formaggi",
+             "ingredients":"gorgonzolaost, fårost, parmesanost"
+          },
+          {
+             "id":68,
+             "name":"Salamino",
+             "ingredients":"italiensk stark salami, färska tomater, basilika"
+          },
+          {
+             "id":69,
+             "name":"Pomodoro",
+             "ingredients":"soltorkade tomater, färska champinjoner, pesto, ruccola"
+          },
+          {
+             "id":70,
+             "name":"Pizza Pimodena",
+             "ingredients":"marinerad scampi, spenat, färska champinjoner, havssalt, citron"
+          },
+          {
+             "id":71,
+             "name":"Fantasia",
+             "ingredients":"lufttorkad skinka, soltorkad tomat, pesto, basilika"
+          },
+          {
+             "id":72,
+             "name":"Piccante",
+             "ingredients":"italiensk stark salami, färsk paprika, svarta oliver"
+          },
+          {
+             "id":73,
+             "name":"Caprese",
+             "ingredients":"italiensk stark salami, parmesanost, soltorkade tomater, ruccola"
+          },
+          {
+             "id":74,
+             "name":"Verdure",
+             "ingredients":"färsk paprika, aubergin, färska tomater, färska champinjoner, kronärtskocka, lök, oliver, ruccola"
+          },
+          {
+             "id":75,
+             "name":"Crudo",
+             "ingredients":"lufttorkad skinka, parmesanost, ruccola"
+          },
+          {
+             "id":76,
+             "name":"Antica",
+             "ingredients":"färska champinjoner, fläskfilé, oliver, ruccola, bearnaisesås"
+          },
+          {
+             "id":77,
+             "name":"Guelfa",
+             "ingredients":"färska tomater, färska champinjoner, oxfilé, parmesanost, ruccola, bearnaisesås"
+          },
+          {
+             "id":78,
+             "name":"Frutti di Mare",
+             "ingredients":"musslor i skal, räkor, scampi, marinerad vitlök, persilija"
+          },
+          {
+             "id":79,
+             "name":"Calabra",
+             "ingredients":"peperonikorv, fårost, soltorkade tomater, basilika"
+          },
+          {
+             "id":80,
+             "name":"Bresola",
+             "ingredients":"lufttorkad oxfilé, färska champinjoner, färska tomater, parmesanost, ruccola"
+          },
+          {
+             "id":81,
+             "name":"Texas",
+             "ingredients":"skinka, färska champinjoner, lök, räkor, färska tomater"
+          },
+          {
+             "id":82,
+             "name":"California",
+             "ingredients":"skinka, räkor, banan, ananas, curry"
+          },
+          {
+             "id":83,
+             "name":"Denver",
+             "ingredients":"räkor, musslor, krabba, tonfisk, svart kaviar"
+          },
+          {
+             "id":84,
+             "name":"Dallas",
+             "ingredients":"oxfilé, färska champinjoner, lök, bearnaisesås"
+          },
+          {
+             "id":85,
+             "name":"Arizona",
+             "ingredients":"skinka, bacon, färska champinjoner, färska tomater, lök"
+          },
+          {
+             "id":86,
+             "name":"Las Vegas",
+             "ingredients":"skinka, salami, köttfärssås, ananas, färska tomater, färska champinjoner"
+          },
+          {
+             "id":87,
+             "name":"Kansas",
+             "ingredients":"skinka, salami, färska tomater, lök"
+          },
+          {
+             "id":88,
+             "name":"San Fransisco",
+             "ingredients":"skinka, gorgonzola, färska tomater, lök"
+          },
+          {
+             "id":89,
+             "name":"Alaska",
+             "ingredients":"oxfilé, lök, paprika, peperoni, färska tomater"
+          }
+       ]
+    },
+    "osmokrog":{
+       "name":"Ösmo Krog",
+       "meny":[
+          {
+             "id":1,
+             "name":"Margerita",
+             "ingredients":"tomatsås. ost",
+             "price":99
+          },
+          {
+             "id":2,
+             "name":"Al fungi",
+             "ingredients":"champinjoner",
+             "price":99
+          },
+          {
+             "id":3,
+             "name":"Vesuvio",
+             "ingredients":"skinka",
+             "price":99
+          },
+          {
+             "id":4,
+             "name":"Banan",
+             "ingredients":"skinka. banan, curry",
+             "price":109
+          },
+          {
+             "id":5,
+             "name":"Romana (Inbakad)",
+             "ingredients":"köttfärssås, färsk tomat",
+             "price":99
+          },
+          {
+             "id":6,
+             "name":"Calzone (Inbakad)",
+             "ingredients":"skinka",
+             "price":99
+          },
+          {
+             "id":7,
+             "name":"Bolognese",
+             "ingredients":"köttfärs",
+             "price":99
+          },
+          {
+             "id":8,
+             "name":"Pepperone",
+             "ingredients":"peperonikorv, lök",
+             "price":109
+          },
+          {
+             "id":9,
+             "name":"Hawaii",
+             "ingredients":"skinka, ananas",
+             "price":109
+          },
+          {
+             "id":10,
+             "name":"Capriciosa",
+             "ingredients":"skinka, ost, champinjoner",
+             "price":109
+          },
+          {
+             "id":11,
+             "name":"Al Tonno",
+             "ingredients":"tonfisk, lök",
+             "price":109
+          },
+          {
+             "id":12,
+             "name":"Gorgonzola",
+             "ingredients":"skinka, paprika, gorgonzola",
+             "price":109
+          },
+          {
+             "id":13,
+             "name":"Bussola",
+             "ingredients":"räkor, skinka",
+             "price":119
+          },
+          {
+             "id":14,
+             "name":"Opera",
+             "ingredients":"tonfisk, skinka",
+             "price":109
+          },
+          {
+             "id":15,
+             "name":"Rolles special",
+             "ingredients":"gorgonzola, skinka, lök, färsk tomat",
+             "price":119
+          },
+          {
+             "id":16,
+             "name":"Campagnola",
+             "ingredients":"salami, paprika, lök",
+             "price":109
+          },
+          {
+             "id":17,
+             "name":"Marinara",
+             "ingredients":"räkor, musslor",
+             "price":109
+          },
+          {
+             "id":18,
+             "name":"Big ben",
+             "ingredients":"bacon, lök, ägg",
+             "price":109
+          },
+          {
+             "id":19,
+             "name":"Gringo",
+             "ingredients":"fårsost, cayennpeppar, köttfärs, salami, paprika, bearnasie sås",
+             "price":119
+          },
+          {
+             "id":20,
+             "name":"Portofino",
+             "ingredients":"skinka, räkor, tonfisk",
+             "price":119
+          },
+          {
+             "id":21,
+             "name":"Samoa",
+             "ingredients":"kyckling, ananas, banan, jordnötter, curry",
+             "price":119
+          },
+          {
+             "id":22,
+             "name":"Ranias Special",
+             "ingredients":"kyckling, paprika, lök, champinjoner, kronärtskocka",
+             "price":109
+          },
+          {
+             "id":23,
+             "name":"Vegetale",
+             "ingredients":"champinjoner, kronärtskocka, ananas, lök, sparris, paprika, oliver",
+             "price":109
+          },
+          {
+             "id":24,
+             "name":"Roma",
+             "ingredients":"tonfisk, skinka, champinjoner, räkor",
+             "price":119
+          },
+          {
+             "id":25,
+             "name":"Rizzos Special",
+             "ingredients":"majs, kyckling, gräddfil, lök, paprika, tacosås",
+             "price":119
+          },
+          {
+             "id":26,
+             "name":"Sara Special",
+             "ingredients":"kyckling, curry, ananas",
+             "price":109
+          },
+          {
+             "id":27,
+             "name":"Tropicana",
+             "ingredients":"skinka, räkor, ananas, banan, curry",
+             "price":119
+          },
+          {
+             "id":28,
+             "name":"Husets",
+             "ingredients":"gratinerad ost, räkor, paprika, skinka, champinjoner, lök",
+             "price":119
+          },
+          {
+             "id":29,
+             "name":"Milano",
+             "ingredients":"köttfärs, skinka, paprika, ägg, bacon, lök",
+             "price":119
+          },
+          {
+             "id":30,
+             "name":"Quattro Stagioni",
+             "ingredients":"skinka, räkor, musslor, oliver, kronärtskocka, champinjone",
+             "price":119
+          },
+          {
+             "id":31,
+             "name":"Dubbel Calzone",
+             "ingredients":"skinka",
+             "price":119
+          },
+          {
+             "id":32,
+             "name":"Kebabpizza",
+             "ingredients":"kebab, lök, pepperoni, husets sås",
+             "price":119
+          },
+          {
+             "id":33,
+             "name":"Amigo",
+             "ingredients":"köttfärs, cayenpeppar, champinjoner, lök, paprika, bearnaisesås",
+             "price":119
+          },
+          {
+             "id":34,
+             "name":"Tefat (dubbelinbakad)",
+             "ingredients":"skinka, salami, bacon, champinjoner",
+             "price":119
+          },
+          {
+             "id":35,
+             "name":"Vagabond",
+             "ingredients":"oxfilé, lök, färsk tomat, paprika, champinjoner, bearnaisesås",
+             "price":149
+          },
+          {
+             "id":36,
+             "name":"Ösmo Special",
+             "ingredients":"köttfärssås, paprika, lök, sambal, jalapeno, champinjoner.",
+             "price":119
+          },
+          {
+             "id":37,
+             "name":"Hantverkarens special",
+             "ingredients":"champinjoner, jalapeno, skinka, färsk vitlök, kebabkött och valfri sås.",
+             "price":139
+          },
+          {
+             "id":38,
+             "name":"Black & White",
+             "ingredients":"oxfile, fläskfilé, sparris, räkor, bearnaisesås",
+             "price":149
+          },
+          {
+             "id":39,
+             "name":"Maffioso",
+             "ingredients":"kebab, champinjoner, lök, skinka, färsk tomat, fefferoni,husetsås",
+             "price":139
+          },
+          {
+             "id":40,
+             "name":"Viking kebab (inbakad)",
+             "ingredients":"kebabkött, isbergssallad, tomat, lök, gurka, husets sås",
+             "price":139
+          },
+          {
+             "id":41,
+             "name":"Tefat (dubbelinbakad)",
+             "ingredients":"skinka, salami, bacon, champinjoner",
+             "price":139
+          },
+          {
+             "id":42,
+             "name":"Valentino",
+             "ingredients":"oxfilé, sparris, färsk tomat, lök, färsk vitlök, bearnaisesås",
+             "price":149
+          },
+          {
+             "id":43,
+             "name":"Krogens special",
+             "ingredients":"skinka, bacon, jalapeno, kebabkött, och valfrisås.",
+             "price":139
+          },
+          {
+             "id":44,
+             "name":"Q. Formaggio",
+             "ingredients":"oxfilé, gorgonzola, mozzarella, fårost, vitlök, oliver, bearnaisesås",
+             "price":149
+          },
+          {
+             "id":45,
+             "name":"Du Chef",
+             "ingredients":"fläskfilé, lök, paprika, tacosås, vitlöksås",
+             "price":139
+          },
+          {
+             "id":46,
+             "name":"Juventus",
+             "ingredients":"fläskfilé, champinjoner, sparris, paprika, bearnaise sås",
+             "price":139
+          },
+          {
+             "id":47,
+             "name":"Ciao Ciao",
+             "ingredients":"oxfilé, lök, färsk tomat, bearnaisesås",
+             "price":149
+          },
+          {
+             "id":48,
+             "name":"Kebab Special",
+             "ingredients":"kebabkött, lök, isbergssallad, färsk tomat, gurka, husets sås",
+             "price":139
+          },
+          {
+             "id":49,
+             "name":"Azteka",
+             "ingredients":"skinka, tacokrydda, jalapeno, tacosås, gräddfil",
+             "price":119
+          },
+          {
+             "id":50,
+             "name":"Acapulco",
+             "ingredients":"oxfilé, lök, champinjoner, tacosås, jalapeno, tacokrydda, bearnaisesås",
+             "price":149
+          },
+          {
+             "id":51,
+             "name":"Mexikana",
+             "ingredients":"köttfärs,lök,tacokrydda,jalapeno,tacosås",
+             "price":139
+          },
+          {
+             "id":52,
+             "name":"La Paz",
+             "ingredients":"Fläskfilé, tacokrydda, jalapeno, gorgonzola, bearnasie sås ",
+             "price":139
+          },
+          {
+             "id":53,
+             "name":"Athen",
+             "ingredients":"salami, fårost, lök, oliver, färsk tomat, pepperoni",
+             "price":119
+          },
+          {
+             "id":54,
+             "name":"Aristo",
+             "ingredients":"oxfilé, fårost, lök, persilja, färsk tomat, paprika, bearnaisesås",
+             "price":149
+          },
+          {
+             "id":55,
+             "name":"Rhodos",
+             "ingredients":"fläskfilé, fårost, lök, färsk tomat, fefferoni, oliver, bearnaisesås",
+             "price":139
+          },
+          {
+             "id":56,
+             "name":"Honolulu",
+             "ingredients":"skinka, ananas, curry, banan",
+             "price":140
+          },
+          {
+             "id":57,
+             "name":"Russe",
+             "ingredients":"oxfilé, champinjoner, färsk tomat, bearnaisesås",
+             "price":140
+          },
+          {
+             "id":58,
+             "name":"Arizona",
+             "ingredients":"skinka, champinjoner, gorgonzola, paprika",
+             "price":140
+          },
+          {
+             "id":59,
+             "name":"Florida",
+             "ingredients":"salami, köttfärs, fårost, jalapeño, lök, paprika",
+             "price":140
+          },
+          {
+             "id":60,
+             "name":"Florida",
+             "ingredients":"salami, köttfärs, fårost, jalapeño, lök, paprika",
+             "price":140
+          },
+          {
+             "id":61,
+             "name":"Mezza luna",
+             "ingredients":"(halvinbakad). Inbakad del: mozzarella, skinka. Öppna del: mozzarella, lufttorkad skinka, parmesanost, ruccola",
+             "price":149
+          },
+          {
+             "id":62,
+             "name":"La Kobane",
+             "ingredients":"Lufttorkat skinka, soltorkade tomater, champinjoner, olivolja, parmesanost",
+             "price":149
+          },
+          {
+             "id":63,
+             "name":"La Deré",
+             "ingredients":"oxfilé, champinjoner, ruccola, parmesanost, havssalt, olivolja",
+             "price":149
+          },
+          {
+             "id":64,
+             "name":"Scampi",
+             "ingredients":"champinjoner, oxfilé, scampi, soltorkade tomater, ruccolasallad",
+             "price":149
+          },
+          {
+             "id":65,
+             "name":"Don Corleone",
+             "ingredients":"bresaola salami, pinjenötter, tomater, olivolja, rucola, havssalt, parmesanost",
+             "price":149
+          }
+       ]
+    },
+    "kebab":{
+       "name":"Kebab (fusk)",
+       "meny":[
+          {
+             "id":1,
+             "name":"Kebab i bröd",
+             "ingredients":"grönsaker, peperoni, tomatsås (rödsås), vitlökssås",
+             "price":105
+          },
+          {
+             "id":2,
+             "name":"Kebab i rulle",
+             "ingredients":"grönsaker, peperoni, tomatsås (rödsås), vitlökssås",
+             "price":125
+          },
+          {
+             "id":3,
+             "name":"Kebab tallrik",
+             "ingredients":"med pommes, ris eller bulgur",
+             "price":130
+          }
+       ]
+    }
+ }
