@@ -16,13 +16,20 @@ const getRandomInt = (min, max) => {
 	return Math.floor(Math.random() * (max - min + 1)) + min;
 };
 
+const phrases = [
+	"Smaklig måltid!",
+	"Hoppas det smakar!",
+	"Femton minuter - en kvart.",
+	"Fridens liljor!",
+	"Live long and prosper.",
+];
+
 /**
  * @type {import('../../typings').LegacyCommand}
  */
 module.exports = {
 	name: "rulla",
-	description:
-		"Rulla pizzarouletten, skriv in vilken restaurang som ett argument",
+	description: "Skriv !rulla <restarurangnamn>",
 	aliases: ["commands"],
 	usage: "[command name]",
 	cooldown: 5,
@@ -62,22 +69,19 @@ module.exports = {
 		if (data.hasOwnProperty(restaurant)) {
 			const menu = data[restaurant].meny;
 			const pizza = menu[getRandomInt(0, menu.length - 1)];
-			console.log(`${restaurant} finns i keys`);
 			let pizzaEmbed = new EmbedBuilder()
 				.setColor("Random")
 				.setTitle(
 					`Du rullade en **#${pizza.id}. ${pizza.name}** från **${data[restaurant].name}**`
 				)
 				.setDescription(
-					`*${pizza.ingredients}* ${
+					`*${pizza.ingredients}.* ${
 						pizza.price ? "***Pris: " + pizza.price + " SEK***" : ""
-					}`
+					}\n*${phrases[getRandomInt(0, phrases.length - 1)]}*`
 				)
 				.setThumbnail("https://i.imgur.com/nhf9C8V.png");
 
 			return message.reply({ embeds: [pizzaEmbed] });
-		} else {
-			return message.reply(`Restaurangen: **${args[0]}** kunde inte hittas`);
 		}
 	},
 };
