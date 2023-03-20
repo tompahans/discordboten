@@ -56,7 +56,7 @@ module.exports = {
 		if (arg.startsWith("chrille")) {
 			restaurant = "chrilles";
 		}
-		if (arg.startsWith("hörnet") || args[0].startsWith("pizzahö")) {
+		if (arg.startsWith("hörnet") || arg.startsWith("pizzahö")) {
 			restaurant = "pizzahornet";
 		}
 		if (arg.startsWith("ösmo")) {
