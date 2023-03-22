@@ -84,7 +84,7 @@ module.exports = {
 		// If it's an invalid command.
 
 		if (!command) {
-			return message.reply({ content: "That's not a valid command!" });
+			return message.reply({ content: "Felaktigt kommando!" });
 		}
 
 		/**

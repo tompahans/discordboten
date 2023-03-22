@@ -21,6 +21,9 @@ module.exports = {
 		"kallsup",
 		"charkbricka",
 		"snorlobba",
+		"granris",
+		"spannmål",
+		"läskeblask",
 	],
 
 	execute(message, args) {

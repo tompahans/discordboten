@@ -98,14 +98,14 @@ module.exports = {
 		// Owner Only Property, add in your command properties if true.
 
 		if (command.ownerOnly && message.author.id !== owner) {
-			return message.reply({ content: "This is a owner only command!" });
+			return message.reply({ content: "Detta kommando kan bara ägaren köra" });
 		}
 
 		// Guild Only Property, add in your command properties if true.
 
 		if (command.guildOnly && message.channel.type === ChannelType.DM) {
 			return message.reply({
-				content: "I can't execute that command inside DMs!",
+				content: "Jag kan inte köra dessa kommandon i DM",
 			});
 		}
 
@@ -115,17 +115,17 @@ module.exports = {
 		if (command.permissions && message.channel.type !== ChannelType.DM) {
 			const authorPerms = message.channel.permissionsFor(message.author);
 			if (!authorPerms || !authorPerms.has(command.permissions)) {
-				return message.reply({ content: "You can not do this!" });
+				return message.reply({ content: "Du kan inte göra detta!" });
 			}
 		}
 
 		// Args missing
 
 		if (command.args && !args.length) {
-			let reply = `You didn't provide any arguments, ${message.author}!`;
+			let reply = `Du providerade inga argument, hur skall jag då förstå din fråga?? ${message.author}!`;
 
 			if (command.usage) {
-				reply += `\nThe proper usage would be: \`${prefix}${command.name} ${command.usage}\``;
+				reply += `\nDet rätta kommandot är: \`${prefix}${command.name} ${command.usage}\``;
 			}
 
 			return message.channel.send({ content: reply });
@@ -149,9 +149,11 @@ module.exports = {
 			if (now < expirationTime) {
 				const timeLeft = (expirationTime - now) / 1000;
 				return message.reply({
-					content: `please wait ${timeLeft.toFixed(
+					content: `Snälla vänta i: ${timeLeft.toFixed(
 						1
-					)} more second(s) before reusing the \`${command.name}\` command.`,
+					)} mer sekund(er) före återanvändning av \`${
+						command.name
+					}\` kommandot.`,
 				});
 			}
 		}
@@ -167,7 +169,8 @@ module.exports = {
 		} catch (error) {
 			console.error(error);
 			message.reply({
-				content: "There was an error trying to execute that command!",
+				content:
+					"Det blev ett nedrans error-meddelande när jag försökte köra kommandot",
 			});
 		}
 	},

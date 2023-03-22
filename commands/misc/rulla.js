@@ -24,64 +24,54 @@ const phrases = [
 	"Live long and prosper.",
 ];
 
+const getPizza = (message, args) => {
+	const arg = args.join(" ");
+	const restaurant = Object.values(data).find((rest) =>
+		rest.name.toLowerCase().includes(arg.toLowerCase())
+	);
+
+	if (restaurant) {
+		const menu = restaurant.meny;
+		const pizza = menu[getRandomInt(0, menu.length - 1)];
+		let pizzaEmbed = new EmbedBuilder()
+			.setColor("Random")
+			.setTitle(
+				`Du rullade en **#${pizza.id}. ${pizza.name}** från **${restaurant.name}**`
+			)
+			.setDescription(
+				`*${pizza.ingredients}.* ${
+					pizza.price ? "***Pris: " + pizza.price + " SEK***" : ""
+				}\n*${phrases[getRandomInt(0, phrases.length - 1)]}*`
+			)
+			.setThumbnail("https://i.imgur.com/nhf9C8V.png");
+
+		return message.reply({ embeds: [pizzaEmbed] });
+	} else {
+		return message.reply("Restaurangen kunde inte hittas");
+	}
+};
+
 /**
  * @type {import('../../typings').LegacyCommand}
  */
 module.exports = {
 	name: "rulla",
-	description: "Skriv !rulla <restarurangnamn>",
+	description: "Skriv !rulla <restaurang>",
 	aliases: ["commands"],
-	usage: "[command name]",
+	usage:
+		"[rulla restaurangnamn, om restaurangnamn matchar något namn i databasen så rullas det en pizza]",
 	cooldown: 5,
 	// Refer to typings.d.ts for available properties.
 
 	execute(message, args) {
-		if (!args.length || args.length > 1) {
+		if (!args.length) {
 			/**
 			 * @type {EmbedBuilder}
-			 * @description what type of pizza embed
+			 * @description what type of pizza you rolled in an embed
 			 */
 
 			return message.reply({ content: "Förstår inte frågan" });
 		}
-		const arg = args[0];
-		var restaurant;
-
-		if (arg.startsWith("lilla")) {
-			restaurant = "lillaitalien";
-		}
-		if (arg.startsWith("kaktus")) {
-			restaurant = "kaktusen";
-		}
-		if (arg.startsWith("chrille")) {
-			restaurant = "chrilles";
-		}
-		if (arg.startsWith("hörnet") || arg.startsWith("pizzahö")) {
-			restaurant = "pizzahornet";
-		}
-		if (arg.startsWith("ösmo")) {
-			restaurant = "osmokrog";
-		}
-		if (arg === "kodord kebab") {
-			restaurant = "kebab";
-		}
-
-		if (data.hasOwnProperty(restaurant)) {
-			const menu = data[restaurant].meny;
-			const pizza = menu[getRandomInt(0, menu.length - 1)];
-			let pizzaEmbed = new EmbedBuilder()
-				.setColor("Random")
-				.setTitle(
-					`Du rullade en **#${pizza.id}. ${pizza.name}** från **${data[restaurant].name}**`
-				)
-				.setDescription(
-					`*${pizza.ingredients}.* ${
-						pizza.price ? "***Pris: " + pizza.price + " SEK***" : ""
-					}\n*${phrases[getRandomInt(0, phrases.length - 1)]}*`
-				)
-				.setThumbnail("https://i.imgur.com/nhf9C8V.png");
-
-			return message.reply({ embeds: [pizzaEmbed] });
-		}
+		getPizza(message, args);
 	},
 };
