@@ -58,8 +58,7 @@ module.exports = {
 	name: "rulla",
 	description: "Skriv !rulla <restaurang>",
 	aliases: ["commands"],
-	usage:
-		"[rulla restaurangnamn, om restaurangnamn matchar något namn i databasen så rullas det en pizza]",
+	usage: "[rulla <restaurang>]",
 	cooldown: 5,
 	// Refer to typings.d.ts for available properties.
 
