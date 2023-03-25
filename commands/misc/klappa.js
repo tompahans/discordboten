@@ -18,7 +18,7 @@ const getRandomInt = (min, max) => {
 };
 
 const klappaKatt = (message, args) => {
-	const folder = pathToImages + args[0];
+	const folder = pathToImages + args[0] + "/";
 	if (fs.existsSync(folder)) {
 		fs.readdir(folder, function (err, files) {
 			if (err) {
@@ -33,7 +33,7 @@ const klappaKatt = (message, args) => {
 				console.log(file);
 			});
 			const image = imageFiles[getRandomInt(0, imageFiles.length - 1)];
-			const getPath = path.resolve(folder + "\\" + image);
+			const getPath = path.resolve(folder + image);
 
 			const attachment = new AttachmentBuilder(getPath, {
 				name: image,
