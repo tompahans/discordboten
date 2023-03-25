@@ -33,7 +33,7 @@ const klappaKatt = (message, args) => {
 				console.log(file);
 			});
 			const image = imageFiles[getRandomInt(0, imageFiles.length - 1)];
-			const getPath = path.resolve(folder + image);
+			const getPath = path.resolve(__dirname, "..", "..", folder + image);
 
 			const attachment = new AttachmentBuilder(getPath, {
 				name: image,
@@ -45,8 +45,6 @@ const klappaKatt = (message, args) => {
 	} else {
 		return message.reply("no comprendo");
 	}
-
-	console.log("triggerd");
 };
 
 /**
