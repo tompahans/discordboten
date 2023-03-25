@@ -28,17 +28,13 @@ const klappaKatt = (message, args) => {
 			const imageFiles = files.filter(function (file) {
 				return file.endsWith(".JPG");
 			});
-			console.log("Hittade:" + imageFiles.length + " bilder: ");
-			imageFiles.forEach(function (file) {
-				console.log(file);
-			});
+
 			const image = imageFiles[getRandomInt(0, imageFiles.length - 1)];
 			const getPath = path.resolve(folder + image);
 
 			const attachment = new AttachmentBuilder(getPath, {
 				name: image,
 			});
-			console.log(getPath);
 
 			return message.reply({ content: "Mjaau", files: [attachment] });
 		});
