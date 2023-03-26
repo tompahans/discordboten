@@ -4,7 +4,6 @@
  * @since 1.0.0
  * @version 3.2.2
  */
-
 module.exports = {
 	name: "ready",
 	once: true,

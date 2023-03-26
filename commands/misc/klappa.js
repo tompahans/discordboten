@@ -18,7 +18,7 @@ const getRandomInt = (min, max) => {
 };
 
 const klappaKatt = (message, args) => {
-	const folder = pathToImages + args[0] + "/";
+	const folder = pathToImages + args[0].toLowerCase() + "/";
 	if (fs.existsSync(folder)) {
 		fs.readdir(folder, function (err, files) {
 			if (err) {
@@ -26,7 +26,9 @@ const klappaKatt = (message, args) => {
 				return;
 			}
 			const imageFiles = files.filter(function (file) {
-				return file.endsWith(".JPG");
+				return (
+					file.endsWith(".JPG") || file.endsWith("png") || file.endsWith("jpg")
+				);
 			});
 
 			const image = imageFiles[getRandomInt(0, imageFiles.length - 1)];
@@ -38,8 +40,6 @@ const klappaKatt = (message, args) => {
 
 			return message.reply({ content: "Mjaau", files: [attachment] });
 		});
-	} else {
-		return message.reply("no comprendo");
 	}
 };
 
