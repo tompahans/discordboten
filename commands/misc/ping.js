@@ -11,7 +11,7 @@
 module.exports = {
 	name: "ping",
 	// Refer to typings.d.ts for available properties.
-
+	// eslint-disable-next-line
 	execute(message, args) {
 		message.reply({ content: "Pong." });
 	},
