@@ -10,6 +10,7 @@
 /**
  * @type {import('../../typings').TriggerCommand}
  */
+const { PermissionsBitField } = require("discord.js");
 module.exports = {
 	name: [
 		"fläsknos",
@@ -24,13 +25,22 @@ module.exports = {
 		"granris",
 		"spannmål",
 		"läskeblask",
+		"springmask",
+		"blixtlås",
 	],
-
-	execute(message, args) {
-		// Put all your trigger code over here. This code will be executed when any of the element in the "name" array is found in the message content.
-
+	// eslint-disable-next-line
+	async execute(message, args) {
 		message.reply({
 			content: "Ge fan i såna ord!",
 		});
+		const member = await message.guild.members.fetch(message.author.id);
+		if (
+			member.bannable &&
+			message.guild.members.me.permissions.has(
+				PermissionsBitField.Flags.KICK_MEMBERS
+			)
+		) {
+			member.timeout(6 * 1000, "Ge fan i såna ord!");
+		}
 	},
 };

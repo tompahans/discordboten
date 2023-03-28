@@ -7,7 +7,7 @@
 // Deconstructing prefix from config file to use in help command
 
 // Deconstructing EmbedBuilder to create embeds within this command
-const { EmbedBuilder, AttachmentBuilder } = require("discord.js");
+const { AttachmentBuilder } = require("discord.js");
 
 const fs = require("fs");
 const path = require("path");
@@ -48,9 +48,9 @@ const klappaKatt = (message, args) => {
  */
 module.exports = {
 	name: "klappa",
-	description: "Skriv !klappa <restaurang>",
+	description: "Skriv !klappa <kattnamn>",
 	aliases: ["commands"],
-	usage: "[klappa <tarzan>]",
+	usage: "[klappa tarzan]",
 	cooldown: 5,
 	// Refer to typings.d.ts for available properties.
 

@@ -32,7 +32,7 @@ module.exports = {
 			 * @description Help command embed object
 			 */
 
-			let helpEmbed = new EmbedBuilder()
+			const helpEmbed = new EmbedBuilder()
 				.setColor("Random")
 				.setTitle("Lista över mina syntax")
 				.setDescription(
@@ -92,14 +92,15 @@ module.exports = {
 		 * @description Embed of Help command for a specific command.
 		 */
 
-		let commandEmbed = new EmbedBuilder()
+		const commandEmbed = new EmbedBuilder()
 			.setColor("Random")
 			.setTitle("Syntax information");
 
-		if (command.description)
+		if (command.description) {
 			commandEmbed.setDescription(`${command.description}`);
+		}
 
-		if (command.aliases)
+		if (command.aliases) {
 			commandEmbed.addFields([
 				{
 					name: "Alias",
@@ -112,7 +113,8 @@ module.exports = {
 					inline: true,
 				},
 			]);
-		if (command.usage)
+		}
+		if (command.usage) {
 			commandEmbed.addFields([
 				{
 					name: "Användning",
@@ -121,8 +123,9 @@ module.exports = {
 				},
 			]);
 
-		// Finally send the embed.
+			// Finally send the embed.
 
-		message.channel.send({ embeds: [commandEmbed] });
+			message.channel.send({ embeds: [commandEmbed] });
+		}
 	},
 };

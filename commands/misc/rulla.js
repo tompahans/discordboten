@@ -33,7 +33,7 @@ const getPizza = (message, args) => {
 	if (restaurant) {
 		const menu = restaurant.meny;
 		const pizza = menu[getRandomInt(0, menu.length - 1)];
-		let pizzaEmbed = new EmbedBuilder()
+		const pizzaEmbed = new EmbedBuilder()
 			.setColor("Random")
 			.setTitle(
 				`Du rullade en **#${pizza.id}. ${pizza.name}** från **${restaurant.name}**`
