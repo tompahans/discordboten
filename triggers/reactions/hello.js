@@ -37,7 +37,7 @@ module.exports = {
 		if (
 			member.bannable &&
 			message.guild.members.me.permissions.has(
-				PermissionsBitField.Flags.KICK_MEMBERS
+				PermissionsBitField.Flags.KickMembers
 			)
 		) {
 			member.timeout(6 * 1000, "Ge fan i såna ord!");

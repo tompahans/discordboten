@@ -1,10 +1,9 @@
 /**
  * @file pet the cat
- * @author Tommy Jämsä
- * @since 1.0.0
+ * @author Tompahans
+ * @since 3.2.2
  * @version 3.2.2
  */
-// Deconstructing prefix from config file to use in help command
 
 // Deconstructing EmbedBuilder to create embeds within this command
 const { AttachmentBuilder } = require("discord.js");

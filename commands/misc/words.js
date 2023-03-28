@@ -1,5 +1,5 @@
 /**
- * @file Sample ping command
+ * @file Forbidden words print out
  * @author Tompahans
  * @since 3.2.2
  * @version 3.2.2
@@ -8,7 +8,9 @@
 /**
  * @type {import('../../typings').LegacyCommand}
  */
+// Destructures the word list from the trigger
 const { name } = require("../../triggers/reactions/hello.js");
+// Makes the word list a string with spaces as separator.
 const words = name.join(" ");
 
 module.exports = {
@@ -18,7 +20,7 @@ module.exports = {
 	// eslint-disable-next-line
 	execute(message, args) {
 		message.reply({
-			content: "**Förbjudna ord:** " + "```" + words + "```",
+			content: "**Förbjudna ord:** ```" + words + "```",
 		});
 	},
 };
