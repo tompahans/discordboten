@@ -8,15 +8,14 @@
 /**
  * @type {import('../../typings').LegacyCommand}
  */
-// Destructures the word list from the trigger
-const { name } = require("../../triggers/reactions/hello.js");
-// Makes the word list a string with spaces as separator.
-const words = name.join(" ");
+// Wordlist
+const data = require("../../data/words.json");
+// Sort list and add spaces between them
+const words = data.words.sort().join(" ");
 
 module.exports = {
 	name: "words",
 	description: "Få en lista över alla förbjudna ord",
-	// Refer to typings.d.ts for available properties.
 	// eslint-disable-next-line
 	execute(message, args) {
 		message.reply({

@@ -11,23 +11,10 @@
  * @type {import('../../typings').TriggerCommand}
  */
 const { PermissionsBitField } = require("discord.js");
+const data = require("../../data/words.json");
+
 module.exports = {
-	name: [
-		"fläsknos",
-		"danskebank",
-		"ravioli",
-		"rappare",
-		"sabeltand",
-		"tramadol",
-		"kallsup",
-		"charkbricka",
-		"snorlobba",
-		"granris",
-		"spannmål",
-		"läskeblask",
-		"springmask",
-		"blixtlås",
-	],
+	name: data.words,
 	// eslint-disable-next-line
 	async execute(message, args) {
 		message.reply({
