@@ -11,23 +11,17 @@ const { EmbedBuilder } = require("discord.js");
 
 // Pizza database
 const data = require("../../data/db.json");
+// Destructure phrases from words json
+const { phrases } = require("../../data/words.json");
 
 const getRandomInt = (min, max) => {
 	return Math.floor(Math.random() * (max - min + 1)) + min;
 };
 
-const phrases = [
-	"Smaklig måltid!",
-	"Hoppas det smakar!",
-	"Femton minuter - en kvart.",
-	"Fridens liljor!",
-	"Live long and prosper.",
-];
-
-const getPizza = (message, args) => {
-	const arg = args.join(" ");
+function getPizza(message, args) {
+	const arg = args.join(" ").toLowerCase();
 	const restaurant = Object.values(data).find((rest) =>
-		rest.name.toLowerCase().includes(arg.toLowerCase())
+		rest.name.toLowerCase().includes(arg)
 	);
 
 	if (restaurant) {
@@ -40,16 +34,16 @@ const getPizza = (message, args) => {
 			)
 			.setDescription(
 				`*${pizza.ingredients}.* ${
-					pizza.price ? "***Pris: " + pizza.price + " SEK***" : ""
+					pizza.price ? "*Pris: " + pizza.price + " SEK*" : ""
 				}\n*${phrases[getRandomInt(0, phrases.length - 1)]}*`
 			)
 			.setThumbnail("https://i.imgur.com/nhf9C8V.png");
 
 		return message.reply({ embeds: [pizzaEmbed] });
 	} else {
-		return message.reply("Restaurangen kunde inte hittas");
+		return message.reply(`Restaurangen kunde inte hittas`);
 	}
-};
+}
 
 /**
  * @type {import('../../typings').LegacyCommand}
