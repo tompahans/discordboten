@@ -60,7 +60,7 @@ for (const file of eventFiles) {
 	}
 }
 
-/**********************************************************************/
+// **********************************************************************/
 // Define Collection of Commands, Slash Commands and cooldowns
 
 client.commands = new Collection();
@@ -73,7 +73,7 @@ client.cooldowns = new Collection();
 client.autocompleteInteractions = new Collection();
 client.triggers = new Collection();
 
-/**********************************************************************/
+// **********************************************************************/
 // Registration of Message-Based Legacy Commands.
 
 /**
@@ -95,7 +95,7 @@ for (const folder of commandFolders) {
 	}
 }
 
-/**********************************************************************/
+// **********************************************************************/
 // Registration of Slash-Command Interactions.
 
 /**
@@ -118,7 +118,7 @@ for (const module of slashCommands) {
 	}
 }
 
-/**********************************************************************/
+// **********************************************************************/
 // Registration of Autocomplete Interactions.
 
 /**
@@ -141,7 +141,7 @@ for (const module of autocompleteInteractions) {
 	}
 }
 
-/**********************************************************************/
+// **********************************************************************/
 // Registration of Context-Menu Interactions
 
 /**
@@ -164,7 +164,7 @@ for (const folder of contextMenus) {
 	}
 }
 
-/**********************************************************************/
+// **********************************************************************/
 // Registration of Button-Command Interactions.
 
 /**
@@ -187,7 +187,7 @@ for (const module of buttonCommands) {
 	}
 }
 
-/**********************************************************************/
+// **********************************************************************/
 // Registration of Modal-Command Interactions.
 
 /**
@@ -210,7 +210,7 @@ for (const module of modalCommands) {
 	}
 }
 
-/**********************************************************************/
+// **********************************************************************/
 // Registration of select-menus Interactions
 
 /**
@@ -232,7 +232,7 @@ for (const module of selectMenus) {
 	}
 }
 
-/**********************************************************************/
+// **********************************************************************/
 // Registration of Slash-Commands in Discord API
 
 const rest = new REST({ version: "9" }).setToken(token);
@@ -273,7 +273,7 @@ const commandJsonData = [
 	}
 })();
 
-/**********************************************************************/
+// ********************************************************************** //
 // Registration of Message Based Chat Triggers
 
 /**

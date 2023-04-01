@@ -10,7 +10,7 @@
 /**
  * @type {import('../../typings').TriggerCommand}
  */
-const { PermissionsBitField } = require("discord.js");
+
 const data = require("../../data/words.json");
 
 module.exports = {
@@ -21,13 +21,12 @@ module.exports = {
 			content: "Ge fan i såna ord!",
 		});
 		const member = await message.guild.members.fetch(message.author.id);
-		if (
-			member.bannable &&
-			message.guild.members.me.permissions.has(
-				PermissionsBitField.Flags.KickMembers
-			)
-		) {
-			member.timeout(6 * 1000, "Ge fan i såna ord!");
+
+		if (member.bannable) {
+			member
+				.timeout(6 * 1000, "Ge fan i såna ord!")
+				.then(() => console.log("timeouted member " + member))
+				.catch(console.log);
 		}
 	},
 };
