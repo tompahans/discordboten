@@ -19,25 +19,26 @@ const getRandomInt = (min, max) => {
 };
 
 function getPizza(message, args) {
-	const [, ...specify] = args;
-
 	const restaurant = Object.values(data).find((rest) =>
 		rest.name.toLowerCase().includes(args[0])
 	);
 
 	if (restaurant) {
-		const menu = specify.join(" ").startsWith("veg")
-			? restaurant.meny.filter((menuItem) => menuItem.vego === true)
-			: restaurant.meny;
-		const pizza = menu[getRandomInt(0, menu.length - 1)];
+		const menu =
+			args.includes("vego") ||
+			args.includes("veg") ||
+			args.includes("vegetarisk")
+				? restaurant.meny.filter((menuItem) => menuItem.vego === true)
+				: restaurant.meny;
+		const menuItem = menu[getRandomInt(0, menu.length - 1)];
 		const pizzaEmbed = new EmbedBuilder()
 			.setColor("Random")
 			.setTitle(
-				`Du rullade en **#${pizza.id}. ${pizza.name}** från **${restaurant.name}**`
+				`Du rullade en **#${menuItem.id}. ${menuItem.name}** från **${restaurant.name}**`
 			)
 			.setDescription(
-				`*${pizza.ingredients}.* ${
-					pizza.price ? "*Pris: " + pizza.price + " SEK*" : ""
+				`*${menuItem.ingredients}.* ${
+					menuItem.price ? "*Pris: " + menuItem.price + " SEK*" : ""
 				}\n*${phrases[getRandomInt(0, phrases.length - 1)]}*`
 			)
 			.setThumbnail("https://i.imgur.com/nhf9C8V.png");
