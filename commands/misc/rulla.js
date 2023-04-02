@@ -26,7 +26,7 @@ function getPizza(message, args) {
 	);
 
 	if (restaurant) {
-		const menu = specify.join(" ").startsWith("vego")
+		const menu = specify.join(" ").startsWith("veg")
 			? restaurant.meny.filter((menuItem) => menuItem.vego === true)
 			: restaurant.meny;
 		const pizza = menu[getRandomInt(0, menu.length - 1)];
