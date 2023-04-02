@@ -5,7 +5,8 @@
           {
              "id":1,
              "name":"Margherita",
-             "ingredients":"tomatsås, ost"
+             "ingredients":"tomatsås, ost",
+             "vego": true
           },
           {
              "id":2,
@@ -15,7 +16,8 @@
           {
              "id":3,
              "name":"Funghi",
-             "ingredients":"champinjoner"
+             "ingredients":"champinjoner",
+             "vego": true
           },
           {
              "id":4,
@@ -80,7 +82,8 @@
           {
              "id":16,
              "name":"Vegetariana",
-             "ingredients":"champinjoner, lök, paprika, oliver, kronärtskocka, sparris"
+             "ingredients":"champinjoner, lök, paprika, oliver, kronärtskocka, sparris",
+             "vego": true
           },
           {
              "id":17,
@@ -90,7 +93,8 @@
           {
              "id":18,
              "name":"Fresca",
-             "ingredients":"champinjoner, lök, paprika, färsk tomat, vitlök"
+             "ingredients":"champinjoner, lök, paprika, färsk tomat, vitlök",
+             "vego": true
           },
           {
              "id":19,
@@ -220,12 +224,14 @@
           {
              "id":44,
              "name":"Madre natura",
-             "ingredients":"tomatsås, vegansk ost, zucchini, aubergine, spenat, purjolök, avokado, färsk basilika"
+             "ingredients":"tomatsås, vegansk ost, zucchini, aubergine, spenat, purjolök, avokado, färsk basilika",
+             "vego": true
           },
           {
              "id":45,
              "name":"Sogno vegano",
-             "ingredients":"tomatsås, vegansk ost, vegansk sojakött, champinjoner, soltorkad tomat, paprika, rödlök, ruccola"
+             "ingredients":"tomatsås, vegansk ost, vegansk sojakött, champinjoner, soltorkad tomat, paprika, rödlök, ruccola",
+             "vego": true
           },
           {
              "id":46,
@@ -235,12 +241,14 @@
           {
              "id":47,
              "name":"Capo",
-             "ingredients":"soltorkad tomat, champinjoner, färsk basilika, färsk vitlök"
+             "ingredients":"soltorkad tomat, champinjoner, färsk basilika, färsk vitlök",
+             "vego": true
           },
           {
              "id":48,
              "name":"Bresaola",
-             "ingredients":"champinjoner, färsk tomat, lök, bresaola, pinjenötter, färsk basilika"
+             "ingredients":"champinjoner, färsk tomat, lök, bresaola, pinjenötter, färsk basilika",
+             "vego": true
           },
           {
              "id":49,
@@ -250,7 +258,8 @@
           {
              "id":50,
              "name":"Orto",
-             "ingredients":"aubergine, paprika, champinjoner, zucchini, tomater, vitlök, oliver"
+             "ingredients":"aubergine, paprika, champinjoner, zucchini, tomater, vitlök, oliver",
+             "vego": true
           },
           {
              "id":51,
@@ -265,12 +274,14 @@
           {
              "id":53,
              "name":"Verde",
-             "ingredients":"zucchini, aubergine, spenat, soltorkad tomat"
+             "ingredients":"zucchini, aubergine, spenat, soltorkad tomat",
+             "vego": true
           },
           {
              "id":54,
              "name":"Quattro formaggi",
-             "ingredients":"brie, gorgonzola, parmesan, färsk basilika"
+             "ingredients":"brie, gorgonzola, parmesan, färsk basilika",
+             "vego": true
           },
           {
              "id":55,
@@ -280,7 +291,8 @@
           {
              "id":56,
              "name":"Fantasia",
-             "ingredients":"paprika, ananas, banan, soltorkad tomat, färsk basilika"
+             "ingredients":"paprika, ananas, banan, soltorkad tomat, färsk basilika",
+             "vego": true
           },
           {
              "id":57,
@@ -315,12 +327,14 @@
           {
              "id":63,
              "name":"Chévre",
-             "ingredients":"chévreost, rödlök, valnötter, honung, körsbärstomater, ruccola"
+             "ingredients":"chévreost, rödlök, valnötter, honung, körsbärstomater, ruccola",
+             "vego": true
           },
           {
              "id":64,
              "name":"Con salsiccia",
-             "ingredients":"salsiccia, körsbärstomater, champinjoner, grana padano, färsk basilika"
+             "ingredients":"salsiccia, körsbärstomater, champinjoner, grana padano, färsk basilika",
+             "vego": true
           }
        ]
     },
@@ -330,12 +344,14 @@
           {
              "id":1,
              "name":"Margherita",
-             "ingredients":"tomatsås, ost"
+             "ingredients":"tomatsås, ost",
+             "vego": true
           },
           {
              "id":2,
              "name":"Funghi",
-             "ingredients":"färska champinjoner"
+             "ingredients":"färska champinjoner",
+             "vego": true
           },
           {
              "id":3,
@@ -425,7 +441,8 @@
           {
              "id":20,
              "name":"Vegetariana",
-             "ingredients":"färska champinjoner, lök, paprika, oliver, kronärtskocka"
+             "ingredients":"färska champinjoner, lök, paprika, oliver, kronärtskocka",
+             "vego": true
           },
           {
              "id":21,
@@ -490,7 +507,8 @@
           {
              "id":33,
              "name":"Tempesta",
-             "ingredients":"fårost, spenat, färska tomater, ruccola"
+             "ingredients":"fårost, spenat, färska tomater, ruccola",
+             "vego": true
           },
           {
              "id":34,
@@ -610,7 +628,8 @@
           {
              "id":57,
              "name":"Ortolana",
-             "ingredients":"mozzarella, tomater, champinjoner, oliver, grillad paprika, zucchini, aubergine"
+             "ingredients":"mozzarella, tomater, champinjoner, oliver, grillad paprika, zucchini, aubergine",
+             "vego": true
           },
           {
              "id":58,
@@ -625,17 +644,20 @@
           {
              "id":60,
              "name":"Spinaci",
-             "ingredients":"spenat, fårost, färsk sparris, kronärtskocka, grillad paprika, ruccola"
+             "ingredients":"spenat, fårost, färsk sparris, kronärtskocka, grillad paprika, ruccola",
+             "vego": true
           },
           {
              "id":61,
              "name":"Pesto",
-             "ingredients":"spenat, fårost, pesto, champinjoner, färsk sparris"
+             "ingredients":"spenat, fårost, pesto, champinjoner, färsk sparris",
+             "vego": true
           },
           {
              "id":62,
              "name":"Yasmine",
-             "ingredients":"mozzarella, fårost, pesto, champinjoner, ruccola, grillad paprika"
+             "ingredients":"mozzarella, fårost, pesto, champinjoner, ruccola, grillad paprika",
+             "vego": true
           },
           {
              "id":63,
@@ -645,12 +667,14 @@
           {
              "id":64,
              "name":"Bresaola",
-             "ingredients":"mozzarella, pecorino, bresaola, ruccola, parmesan"
+             "ingredients":"mozzarella, pecorino, bresaola, ruccola, parmesan",
+             "vego": true
           },
           {
              "id":65,
              "name":"Melissa",
-             "ingredients":"bresola, pinjenötter, mozzarella, soltorkade tomater, ruccola, parmesan"
+             "ingredients":"bresola, pinjenötter, mozzarella, soltorkade tomater, ruccola, parmesan",
+             "vego": true
           },
           {
              "id":66,
@@ -695,12 +719,14 @@
           {
              "id":1,
              "name":"Margherita",
-             "ingredients":"tomatsås, ost"
+             "ingredients":"tomatsås, ost",
+             "vego": true
           },
           {
              "id":2,
              "name":"Campagnola",
-             "ingredients":"champinjoner"
+             "ingredients":"champinjoner",
+             "vego": true
           },
           {
              "id":3,
@@ -865,7 +891,8 @@
           {
              "id":35,
              "name":"Gogiano",
-             "ingredients":"fetaost, tomater, lök, champinjoner, paprika"
+             "ingredients":"fetaost, tomater, lök, champinjoner, paprika",
+             "vego": true
           },
           {
              "id":36,
@@ -915,7 +942,8 @@
           {
              "id":45,
              "name":"Quattro Formaggi",
-             "ingredients":"mozzarella, fetaost, pizzaost, gorgonzola, ruccola"
+             "ingredients":"mozzarella, fetaost, pizzaost, gorgonzola, ruccola",
+             "vego": true
           },
           {
              "id":46,
@@ -955,7 +983,8 @@
           {
              "id":1,
              "name":"Margherita",
-             "ingredients":"tomatsås, ost"
+             "ingredients":"tomatsås, ost",
+             "vego": true
           },
           {
              "id":2,
@@ -965,7 +994,8 @@
           {
              "id":3,
              "name":"Funghi",
-             "ingredients":"champinjoner"
+             "ingredients":"champinjoner",
+             "vego": true
           },
           {
              "id":4,
@@ -1045,7 +1075,8 @@
           {
              "id":19,
              "name":"Gorgonzola",
-             "ingredients":"gorgonzola"
+             "ingredients":"gorgonzola",
+             "vego": true
           },
           {
              "id":20,
@@ -1065,7 +1096,8 @@
           {
              "id":23,
              "name":"Vegetarisk",
-             "ingredients":"champinjoner, lök, paprika, oliver, kronärtskocka"
+             "ingredients":"champinjoner, lök, paprika, oliver, kronärtskocka",
+             "vego": true
           },
           {
              "id":24,
@@ -1110,7 +1142,8 @@
           {
              "id":32,
              "name":"Siesta",
-             "ingredients":"gorgonzola, broccoli, vitlök"
+             "ingredients":"gorgonzola, broccoli, vitlök",
+             "vego": true
           },
           {
              "id":33,
@@ -1205,12 +1238,14 @@
           {
              "id":51,
              "name":"Färsk Grönsakspizza",
-             "ingredients":"lök, färska champinjoner, färsk paprika, färska tomater, vitlök, persilja"
+             "ingredients":"lök, färska champinjoner, färsk paprika, färska tomater, vitlök, persilja",
+             "vego": true
           },
           {
              "id":52,
              "name":"Spenat",
-             "ingredients":"spenat, fårost, färska champinjoner, färska tomater, vitlök"
+             "ingredients":"spenat, fårost, färska champinjoner, färska tomater, vitlök",
+             "vego": true
           },
           {
              "id":53,
@@ -1285,7 +1320,8 @@
           {
              "id":67,
              "name":"Formaggi",
-             "ingredients":"gorgonzolaost, fårost, parmesanost"
+             "ingredients":"gorgonzolaost, fårost, parmesanost",
+             "vego": true
           },
           {
              "id":68,
@@ -1295,7 +1331,8 @@
           {
              "id":69,
              "name":"Pomodoro",
-             "ingredients":"soltorkade tomater, färska champinjoner, pesto, ruccola"
+             "ingredients":"soltorkade tomater, färska champinjoner, pesto, ruccola",
+             "vego": true
           },
           {
              "id":70,
@@ -1320,7 +1357,8 @@
           {
              "id":74,
              "name":"Verdure",
-             "ingredients":"färsk paprika, aubergin, färska tomater, färska champinjoner, kronärtskocka, lök, oliver, ruccola"
+             "ingredients":"färsk paprika, aubergin, färska tomater, färska champinjoner, kronärtskocka, lök, oliver, ruccola",
+             "vego": true
           },
           {
              "id":75,
@@ -1406,12 +1444,15 @@
              "id":1,
              "name":"Margerita",
              "ingredients":"tomatsås. ost",
+             "vego": true,
              "price":99
+
           },
           {
              "id":2,
              "name":"Al fungi",
              "ingredients":"champinjoner",
+             "vego": true,
              "price":99
           },
           {
@@ -1538,6 +1579,7 @@
              "id":23,
              "name":"Vegetale",
              "ingredients":"champinjoner, kronärtskocka, ananas, lök, sparris, paprika, oliver",
+             "vego": true,
              "price":109
           },
           {
@@ -1579,7 +1621,7 @@
           {
              "id":30,
              "name":"Quattro Stagioni",
-             "ingredients":"skinka, räkor, musslor, oliver, kronärtskocka, champinjone",
+             "ingredients":"skinka, räkor, musslor, oliver, kronärtskocka, champinjoner",
              "price":119
           },
           {

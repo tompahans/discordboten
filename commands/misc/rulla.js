@@ -19,13 +19,16 @@ const getRandomInt = (min, max) => {
 };
 
 function getPizza(message, args) {
-	const arg = args.join(" ").toLowerCase();
+	const [, ...specify] = args;
+
 	const restaurant = Object.values(data).find((rest) =>
-		rest.name.toLowerCase().includes(arg)
+		rest.name.toLowerCase().includes(args[0])
 	);
 
 	if (restaurant) {
-		const menu = restaurant.meny;
+		const menu = specify.join(" ").startsWith("vego")
+			? restaurant.meny.filter((menuItem) => menuItem.vego === true)
+			: restaurant.meny;
 		const pizza = menu[getRandomInt(0, menu.length - 1)];
 		const pizzaEmbed = new EmbedBuilder()
 			.setColor("Random")

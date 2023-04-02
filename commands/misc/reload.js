@@ -34,7 +34,7 @@ module.exports = {
 		// Command returns if there is no such command with the specific command name or alias.
 		if (!command) {
 			return message.channel.send({
-				content: `There is no command with name or alias \`${commandName}\`, ${message.author}!`,
+				content: `Det finns inget syntax som heter \`${commandName}\`, ${message.author}!`,
 			});
 		}
 
