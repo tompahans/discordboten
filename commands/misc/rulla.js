@@ -37,7 +37,7 @@ function getPizza(message, args) {
 				`Du rullade en **#${menuItem.id}. ${menuItem.name}** från **${restaurant.name}**`
 			)
 			.setDescription(
-				`*${menuItem.ingredients}.* ${
+				`${menuItem.ingredients}. ${
 					menuItem.price ? "*Pris: " + menuItem.price + " SEK*" : ""
 				}\n*${phrases[getRandomInt(0, phrases.length - 1)]}*`
 			)
