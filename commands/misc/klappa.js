@@ -50,6 +50,7 @@ module.exports = {
 	description: "Skriv !klappa <kattnamn>",
 	aliases: ["commands"],
 	usage: "[klappa tarzan]",
+	args: true,
 	cooldown: 5,
 	// Refer to typings.d.ts for available properties.
 

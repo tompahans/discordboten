@@ -8,6 +8,7 @@
 
 // Deconstructing EmbedBuilder to create embeds within this command
 const { EmbedBuilder } = require("discord.js");
+const wait = require("node:timers/promises").setTimeout;
 
 // Pizza database
 const data = require("../../data/db.json");
@@ -31,6 +32,10 @@ function getPizza(message, args) {
 				? restaurant.meny.filter((menuItem) => menuItem.vego === true)
 				: restaurant.meny;
 		const menuItem = menu[getRandomInt(0, menu.length - 1)];
+		const emptyEmbed = new EmbedBuilder()
+			.setColor("Green")
+			.setTitle("Rullar...");
+
 		const pizzaEmbed = new EmbedBuilder()
 			.setColor("Random")
 			.setTitle(
@@ -41,9 +46,12 @@ function getPizza(message, args) {
 					menuItem.price ? "*Pris: " + menuItem.price + " SEK*" : ""
 				}\n*${phrases[getRandomInt(0, phrases.length - 1)]}*`
 			)
-			.setThumbnail("https://i.imgur.com/nhf9C8V.png");
+			.setThumbnail("https://i.imgur.com/eyh8BVB.gif");
 
-		return message.reply({ embeds: [pizzaEmbed] });
+		return message
+			.reply({ embeds: [emptyEmbed] })
+			.then(wait(2000))
+			.then((sentMessage) => sentMessage.edit({ embeds: [pizzaEmbed] }));
 	} else {
 		return message.reply(`Restaurangen kunde inte hittas`);
 	}
@@ -57,6 +65,7 @@ module.exports = {
 	description: "Skriv !rulla <restaurang>",
 	aliases: ["commands"],
 	usage: "[rulla <restaurang>]",
+	args: true,
 	cooldown: 5,
 	// Refer to typings.d.ts for available properties.
 
