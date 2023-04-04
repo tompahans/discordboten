@@ -1836,6 +1836,637 @@
           }
        ]
     },
+    "bergapizzeria": {
+      "name": "Berga Pizzeria",
+      "meny": [
+         {
+            "id": 1,
+            "name": "Margherita",
+            "ingredients": "Ost",
+            "vego": true,
+            "price": 105
+         },
+         {
+            "id": 2,
+            "name": "Vesuvio",
+            "ingredients": "Skinka",
+            "vego": false,
+            "price": 105
+         },
+         {
+            "id": 3,
+            "name": "Funghi",
+            "ingredients": "champinjoner",
+            "vego": true,
+            "price": 105
+         },
+         {
+            "id": 4,
+            "name": "Al Tono",
+            "ingredients": "Tonfisk, lök",
+            "vego": false,
+            "price": 115
+         },
+         {
+            "id": 5,
+            "name": "Cappricciosa",
+            "ingredients": "Skinka, champinjoner",
+            "vego": false,
+            "price": 115
+         },
+         {
+            "id": 6,
+            "name": "Prinsessa",
+            "ingredients": "Skinka, ananas",
+            "vego": false,
+            "price": 115
+         },
+         {
+            "id": 7,
+            "name": "Napoletana",
+            "ingredients": "Sardeller, oliver, kapris",
+            "vego": false,
+            "price": 115
+         },
+         {
+            "id": 8,
+            "name": "Vegetarisk",
+            "ingredients": "champinjoner, lök, paprika, anans, kronärtskocka, oliver",
+            "vego": true,
+            "price": 115
+         },
+         {
+            "id": 9,
+            "name": "Riviera",
+            "ingredients": "Räkor, champinjoner",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 10,
+            "name": "Campagnola",
+            "ingredients": "Salami, lök",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 11,
+            "name": "Uppsala",
+            "ingredients": "Skinka, tonfisk, färska tomater, lök",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 12,
+            "name": "Milano",
+            "ingredients": "Pepperonikorv, färska tomater, lök",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 13,
+            "name": "Marinara",
+            "ingredients": "Räkor, musslor",
+            "vego": false,
+            "price": 105
+         },
+         {
+            "id": 14,
+            "name": "Amigo",
+            "ingredients": "Skinka, tonfisk",
+            "vego": false,
+            "price": 100
+         },
+         {
+            "id": 15,
+            "name": "Bussola",
+            "ingredients": "Skinka, räkor",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 16,
+            "name": "Bolognese",
+            "ingredients": "Köttfärs, färska tomater, färsk paprika, lök",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 17,
+            "name": "Del Opera",
+            "ingredients": "Skinka, salami, paprika, oliver",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 18,
+            "name": "Kanon",
+            "ingredients": "Salami, bacon, ägg, svartpeppar",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 19,
+            "name": "Hawaii",
+            "ingredients": "Skinka, räkor, ananas",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 20,
+            "name": "Pompei",
+            "ingredients": "Bacon, lök",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 21,
+            "name": "Havets special",
+            "ingredients": "Räkor, tonfisk, musslor",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 22,
+            "name": "Roma",
+            "ingredients": "Skinka, räkor, champinjoner",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 23,
+            "name": "Quattro Stagioni",
+            "ingredients": "Skinka, räkor, champinjoner, oliver, kronärtskocka",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 24,
+            "name": "Florida",
+            "ingredients": "Skinka, banan, ananas, curry",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 25,
+            "name": "Vera",
+            "ingredients": "Skinka, räkor, champinjoner, paprika, lök",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 26,
+            "name": "Marco Polo",
+            "ingredients": "Kyckling, pinjenötter, jordnötter, banan, curry",
+            "vego": false,
+            "price": 125
+         },
+         {
+            "id": 27,
+            "name": "Kebabpizza",
+            "ingredients": "Kebabkött, tomater, fefferoni, lök, kebabsås",
+            "vego": false,
+            "price": 125
+         },
+         {
+            "id": 28,
+            "name": "Orientale",
+            "ingredients": "Salami, tacoköttfärs, färsk vitlök",
+            "vego": false,
+            "price": 125
+         },
+         {
+            "id": 29,
+            "name": "Kycklingpizza",
+            "ingredients": "Kyckling, ananas, banan, curry",
+            "vego": false,
+            "price": 125
+         },
+         {
+            "id": 30,
+            "name": "Fårost pizza",
+            "ingredients": "Salami, fårost, fefferoni, lök, färska tomater, oliver",
+            "vego": false,
+            "price": 125
+         },
+         {
+            "id": 31,
+            "name": "Di Mare",
+            "ingredients": "Crabbfish, räkor, musslor",
+            "vego": false,
+            "price": 125
+         },
+         {
+            "id": 32,
+            "name": "Husetspizza",
+            "ingredients": "(Gratinerad) Skinka, rkor, champinjoner, lök, paprika",
+            "vego": false,
+            "price": 125
+         },
+         {
+            "id": 33,
+            "name": "Mama Mia",
+            "ingredients": "Skinka, champ bacon, salami, ägg",
+            "vego": false,
+            "price": 125
+         },
+         {
+            "id": 34,
+            "name": "Del sole",
+            "ingredients": "Kebabkött, kebabsås, råa grönsaker (isbergssallad, lök, gurka, tomat, fefferoni)",
+            "vego": false,
+            "price": 125
+         },
+         {
+            "id": 35,
+            "name": "Vagabondo",
+            "ingredients": "(Halv inbakad) Fläskfilé, färska champinjoner, färsk tomat, bearnaisesås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 36,
+            "name": "Amore",
+            "ingredients": "Fläskfilé, lök, fefferoni, färsk tomat, kebabsås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 37,
+            "name": "Gorgonzola",
+            "ingredients": "Skinka, gorgonzolaost, färsk tomat, lök, fefferoni",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 38,
+            "name": "Oxfilé",
+            "ingredients": "Oxfilé, färska champinjoner, färsk tomat, bearnaisesås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 39,
+            "name": "Mozzarellas",
+            "ingredients": "Skinka, salami, mozzarellaost, färsk tomat, pesto",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 40,
+            "name": "Leonardo",
+            "ingredients": "Fläskfilé, mozzarella, oliver, soltorkade tomater, bearnaisesås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 41,
+            "name": "Fläskfilé pizza",
+            "ingredients": "Fläskfilé, sparris, kronärtskocka, färska champinjoner, bearnaisesås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 42,
+            "name": "Miramare",
+            "ingredients": "Skinka, färska champinjoner, räkor, tonfisk, pesto, färsk paprika",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 43,
+            "name": "Santa Maria",
+            "ingredients": "Prosciutto, mozzarella, oliver, svartpeppar, ruccola",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 44,
+            "name": "Stockholm",
+            "ingredients": "Chevreost, prosciutto, färsk vitlök, färsk ruccola",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 45,
+            "name": "Berga Special",
+            "ingredients": "Skinka, fläskfilé, gorgonzola",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 46,
+            "name": "Åkersberga",
+            "ingredients": "Fläskfilé, chevreost, färsk vitlök, pesto, färsk ruccola",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 47,
+            "name": "Al Capone",
+            "ingredients": "Fläskfilé, banan, curry, bearnaisesås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 48,
+            "name": "Il Capo",
+            "ingredients": "Oxfilé, gorgonzola, lök, bearnaisesås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 49,
+            "name": "Formaggio",
+            "ingredients": "Mozzarella, gorgonzola, fårost, chevreost",
+            "vego": true,
+            "price": 130
+         },
+         {
+            "id": 50,
+            "name": "Verona",
+            "ingredients": "Oxfilé, färsk tomat, kantareller, bearnaisesås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 51,
+            "name": "Promotor",
+            "ingredients": "Fläskfilé, röd paprika, lök, kantareller, bearnaisesås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 52,
+            "name": "Bagarens",
+            "ingredients": "Fläskfilé, krabba, färska champinjoner, färsk tomat, bearnaisesås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 53,
+            "name": "Kantarell",
+            "ingredients": "Kantareller, kebabkött, färsk tomat, lök, bearnaisesås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 54,
+            "name": "Metropol",
+            "ingredients": "Skinka, salami, green chili, tacossås, bearnaisesås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 55,
+            "name": "Tre Kronor",
+            "ingredients": "Kebabkött, pommes, isbergssallad, tomat, fefferoni, lök, röd sås, kebabsås",
+            "vego": false,
+            "price": 135
+         },
+         {
+            "id": 56,
+            "name": "Super Pizza",
+            "ingredients": "Fläskfilé, oxfilé, kebabkött, ruccola, bearnaisesås",
+            "vego": false,
+            "price": 135
+         },
+         {
+            "id": 57,
+            "name": "Azteka",
+            "ingredients": "Skinka, taco kryddmix, tacossås, jalapeno, gräddfil",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 58,
+            "name": "Mexicana",
+            "ingredients": "Tacoköttfärs, taco kryddmix, färsk vitlök, tacosås, lök, grön chili",
+            "vego": false,
+            "price": 125
+         },
+         {
+            "id": 59,
+            "name": "Den Gode",
+            "ingredients": "Kyckling, ananas, grön chili, paprika, curry, tacossås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 60,
+            "name": "Acapulco",
+            "ingredients": "Oxfilé, taco kryddmix, färsk vitlök, champinjoner, tacossås, lök, jalapeno",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 61,
+            "name": "Den Onde",
+            "ingredients": "Fläskfilé, jalapeno, paprika, färska tomater, lök, kryddmix, bearnaisesås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 62,
+            "name": "Krabba",
+            "ingredients": "Krabba, räkor, taco kryddmix, curry, jalapeno, paprika, tacosås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 63,
+            "name": "Slottet",
+            "ingredients": "Salami, krabba, färsk tomat, färsk paprika, jalapeno, tacossås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 64,
+            "name": "Taco Pizza",
+            "ingredients": "Taco köttfärs (lök, färsk tomat, gurka, jalapeno, nacho chips, majs, tacosås, gräddfil)",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 65,
+            "name": "Calzone",
+            "ingredients": "Skinka",
+            "vego": false,
+            "price": 115
+         },
+         {
+            "id": 66,
+            "name": "Calzone Capricciosa",
+            "ingredients": "Skinka, champinjoner",
+            "vego": false,
+            "price": 20
+         },
+         {
+            "id": 67,
+            "name": "Calzone Bussula",
+            "ingredients": "Skinka, räkor",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 68,
+            "name": "Calzone Marinara",
+            "ingredients": "Skinka, musslor",
+            "vego": false,
+            "price": 120
+         },
+         {
+            "id": 69,
+            "name": "Vikingbåt",
+            "ingredients": "Kebabkött, kebabsås, råa grönsaker (isbergssallad, färska tomater, lök, fefferoni)",
+            "vego": false,
+            "price": 125
+         },
+         {
+            "id": 70,
+            "name": "Calzone Special",
+            "ingredients": "Skinka, räkor, champinjoner ",
+            "vego": false,
+            "price": 125
+         },
+         {
+            "id": 71,
+            "name": "UFO",
+            "ingredients": "(Dubbel inbakad) Skinka, räkor, champinjoner ",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 72,
+            "name": "Kebabfat",
+            "ingredients": "(Dubbel inbakad) Kebabkött, lök, färska tomater, fefferoni, kebabsås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 73,
+            "name": "Mezza Luna",
+            "ingredients": "Inbakade halvan: Tomat, mozzarella, prosciutto Andra halvan: Tomat, mozzarellaost, prosciutto, ruccola",
+            "vego": false,
+            "price": 135
+         },
+         {
+            "id": 75,
+            "name": "Globen",
+            "ingredients": "(Dubbel inbakad) Salami, champinjoner, lök",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 76,
+            "name": "Scampi",
+            "ingredients": "Räkor, scampi, curry",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 77,
+            "name": "Lugano",
+            "ingredients": "Salami, bacon, färska tomater, purjolök, cayennepeppar",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 78,
+            "name": "Fruti de Mare",
+            "ingredients": "Musslor i skal, scampi, färsk vitlök, ruccola",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 79,
+            "name": "Cacciatore",
+            "ingredients": "Salami, soltorkade tomater, purjolök, färsk vitlök, parmesanost",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 80,
+            "name": "Gyrospizza",
+            "ingredients": "Gyros, lök, färska tomater, fefferoni, kebabsås",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 81,
+            "name": "Dennis Special",
+            "ingredients": "Färska champinjoner, färsk paprika, färsk tomat, färsk vitlök, färsk mozzarella, ruccola",
+            "vego": true,
+            "price": 130
+         },
+         {
+            "id": 82,
+            "name": "Mone Mia",
+            "ingredients": "Bacon, pepperonikorv, mozarella, ruccola",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 83,
+            "name": "Primavera",
+            "ingredients": "Soltorkade tomater, f mozarella, prosciutto, ruccola",
+            "vego": false,
+            "price": 130
+         },
+         {
+            "id": 84,
+            "name": "Spenat",
+            "ingredients": "Spenat, soltorkade tomater, gurka, paprika, vitlök, vitlökssås",
+            "vego": true,
+            "price": 125
+         },
+         {
+            "id": 85,
+            "name": "Banana",
+            "ingredients": "Banan, ananas, majs, pinjenötter, jordnötter, russin",
+            "vego": false,
+            "price": 125
+         },
+         {
+            "id": 86,
+            "name": "Capris",
+            "ingredients": "Capris, kronärtskocka, grön oliver, champinjoner, vitlök",
+            "vego": true,
+            "price": 125
+         },
+         {
+            "id": 87,
+            "name": "Blomkål",
+            "ingredients": "Blomkål, aubergine, zucchini, paprika, grön oliver, oregano",
+            "vego": true,
+            "price": 130
+         },
+         {
+            "id": 88,
+            "name": "Broccoli",
+            "ingredients": "Broccoli, blomkål, sparris, kronärtskocka, grön oliver, vitlök",
+            "vego": true,
+            "price": 125
+         },
+         {
+            "id": 89,
+            "name": "Paprika",
+            "ingredients": "Paprika, tomater, gurka, rödlök, fefferoni, vitlök, vitlökssås",
+            "vego": true,
+            "price": 125
+         },
+         {
+            "id": 90,
+            "name": "Pesto",
+            "ingredients": "Pesto, aubergine, zucchini, ruccola, broccoli, blomkål",
+            "vego": true,
+            "price": 125
+         }
+
+
+      ]
+    },
+
     "kebab":{
        "name":"Kebab (fusk)",
        "meny":[
