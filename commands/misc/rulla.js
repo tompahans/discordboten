@@ -51,7 +51,7 @@ function getPizza(message, args) {
 		 * @description what type of pizza you rolled in an embed
 		 */
 		const emptyEmbed = new EmbedBuilder()
-			.setColor("Green")
+			.setColor("Grey")
 			.setTitle("Rullar...");
 
 		const pizzaEmbed = new EmbedBuilder()

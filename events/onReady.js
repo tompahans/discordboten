@@ -4,6 +4,8 @@
  * @since 1.0.0
  * @version 3.2.2
  */
+const { ActivityType } = require("discord.js");
+
 module.exports = {
 	name: "ready",
 	once: true,
@@ -13,6 +15,10 @@ module.exports = {
 	 * @param {import('../typings').Client} client Main Application Client.
 	 */
 	execute(client) {
+		client.user.setActivity("!rulla <restaurant>", {
+			type: ActivityType.Playing,
+		});
+
 		console.log(`Ready! Logged in as ${client.user.tag}`);
 	},
 };
