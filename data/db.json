@@ -2351,112 +2351,112 @@
             "price": 135
          },
          {
-            "id": 75,
+            "id": 74,
             "name": "Globen",
             "ingredients": "(Dubbel inbakad) Salami, champinjoner, lök",
             "vego": false,
             "price": 130
          },
          {
-            "id": 76,
+            "id": 75,
             "name": "Scampi",
             "ingredients": "Räkor, scampi, curry",
             "vego": false,
             "price": 130
          },
          {
-            "id": 77,
+            "id": 76,
             "name": "Lugano",
             "ingredients": "Salami, bacon, färska tomater, purjolök, cayennepeppar",
             "vego": false,
             "price": 130
          },
          {
-            "id": 78,
+            "id": 77,
             "name": "Fruti de Mare",
             "ingredients": "Musslor i skal, scampi, färsk vitlök, ruccola",
             "vego": false,
             "price": 130
          },
          {
-            "id": 79,
+            "id": 78,
             "name": "Cacciatore",
             "ingredients": "Salami, soltorkade tomater, purjolök, färsk vitlök, parmesanost",
             "vego": false,
             "price": 130
          },
          {
-            "id": 80,
+            "id": 79,
             "name": "Gyrospizza",
             "ingredients": "Gyros, lök, färska tomater, fefferoni, kebabsås",
             "vego": false,
             "price": 130
          },
          {
-            "id": 81,
+            "id": 80,
             "name": "Dennis Special",
             "ingredients": "Färska champinjoner, färsk paprika, färsk tomat, färsk vitlök, färsk mozzarella, ruccola",
             "vego": true,
             "price": 130
          },
          {
-            "id": 82,
+            "id": 81,
             "name": "Mone Mia",
             "ingredients": "Bacon, pepperonikorv, mozarella, ruccola",
             "vego": false,
             "price": 130
          },
          {
-            "id": 83,
+            "id": 82,
             "name": "Primavera",
             "ingredients": "Soltorkade tomater, f mozarella, prosciutto, ruccola",
             "vego": false,
             "price": 130
          },
          {
-            "id": 84,
+            "id": 83,
             "name": "Spenat",
             "ingredients": "Spenat, soltorkade tomater, gurka, paprika, vitlök, vitlökssås",
             "vego": true,
             "price": 125
          },
          {
-            "id": 85,
+            "id": 84,
             "name": "Banana",
             "ingredients": "Banan, ananas, majs, pinjenötter, jordnötter, russin",
             "vego": false,
             "price": 125
          },
          {
-            "id": 86,
+            "id": 85,
             "name": "Capris",
             "ingredients": "Capris, kronärtskocka, grön oliver, champinjoner, vitlök",
             "vego": true,
             "price": 125
          },
          {
-            "id": 87,
+            "id": 86,
             "name": "Blomkål",
             "ingredients": "Blomkål, aubergine, zucchini, paprika, grön oliver, oregano",
             "vego": true,
             "price": 130
          },
          {
-            "id": 88,
+            "id": 87,
             "name": "Broccoli",
             "ingredients": "Broccoli, blomkål, sparris, kronärtskocka, grön oliver, vitlök",
             "vego": true,
             "price": 125
          },
          {
-            "id": 89,
+            "id": 88,
             "name": "Paprika",
             "ingredients": "Paprika, tomater, gurka, rödlök, fefferoni, vitlök, vitlökssås",
             "vego": true,
             "price": 125
          },
          {
-            "id": 90,
+            "id": 89,
             "name": "Pesto",
             "ingredients": "Pesto, aubergine, zucchini, ruccola, broccoli, blomkål",
             "vego": true,
