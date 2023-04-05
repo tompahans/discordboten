@@ -34,7 +34,7 @@ function getPizza(message, args) {
 				const findVegoItems = restaurant.meny.filter(
 					(menuItem) => menuItem.vego === true
 				);
-				if (findVegoItems?.lenght > 0) {
+				if (findVegoItems?.length > 0) {
 					return findVegoItems;
 				} else {
 					return restaurant.meny;
