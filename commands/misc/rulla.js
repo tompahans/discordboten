@@ -25,13 +25,28 @@ function getPizza(message, args) {
 	);
 
 	if (restaurant) {
-		const menu =
-			args.includes("vego") ||
-			args.includes("veg") ||
-			args.includes("vegetarisk")
-				? restaurant.meny.filter((menuItem) => menuItem.vego === true)
-				: restaurant.meny;
+		const filterMenu = () => {
+			if (
+				args.includes("vego") ||
+				args.includes("veg") ||
+				args.includes("vegetarisk")
+			) {
+				const findVegoItems = restaurant.meny.filter(
+					(menuItem) => menuItem.vego === true
+				);
+				if (findVegoItems?.lenght > 0) {
+					return findVegoItems;
+				} else {
+					return restaurant.meny;
+				}
+			} else {
+				return restaurant.meny;
+			}
+		};
+
+		const menu = filterMenu();
 		const menuItem = menu[getRandomInt(0, menu.length - 1)];
+
 		/**
 		 * @type {EmbedBuilder}
 		 * @description what type of pizza you rolled in an embed
