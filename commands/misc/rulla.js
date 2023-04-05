@@ -31,17 +31,16 @@ function getPizza(message, args) {
 				args.includes("veg") ||
 				args.includes("vegetarisk")
 			) {
-				const findVegoItems = restaurant.meny.filter(
+				const filterVegoItems = restaurant.meny.filter(
 					(menuItem) => menuItem.vego === true
 				);
-				if (findVegoItems?.length > 0) {
-					return findVegoItems;
+				if (filterVegoItems?.length > 0) {
+					return filterVegoItems;
 				} else {
 					return restaurant.meny;
 				}
-			} else {
-				return restaurant.meny;
 			}
+			return restaurant.meny;
 		};
 
 		const menu = filterMenu();
