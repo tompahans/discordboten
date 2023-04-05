@@ -32,6 +32,10 @@ function getPizza(message, args) {
 				? restaurant.meny.filter((menuItem) => menuItem.vego === true)
 				: restaurant.meny;
 		const menuItem = menu[getRandomInt(0, menu.length - 1)];
+		/**
+		 * @type {EmbedBuilder}
+		 * @description what type of pizza you rolled in an embed
+		 */
 		const emptyEmbed = new EmbedBuilder()
 			.setColor("Green")
 			.setTitle("Rullar...");
@@ -71,11 +75,6 @@ module.exports = {
 
 	execute(message, args) {
 		if (!args.length) {
-			/**
-			 * @type {EmbedBuilder}
-			 * @description what type of pizza you rolled in an embed
-			 */
-
 			return message.reply({ content: "Förstår inte frågan" });
 		}
 		getPizza(message, args);

@@ -2466,9 +2466,464 @@
 
       ]
     },
+    "pimpernickel": {
+      "name": "Pimper Nickel",
+      "meny": [
+         {
+            "id": 1,
+            "name": "Margherita",
+            "ingredients": "Tomatsås, Ost",
+            "price": 110,
+            "vego": true
+         },
+         {
+            "id": 2,
+            "name": "Vesuvio",
+            "ingredients": "Tomatsås, Ost, Skinka",
+            "price": 110,
+            "vego": false
+         },
+         {
+            "id": 3,
+            "name": "Funghi",
+            "ingredients": "Tomatsås, Ost, Champinjoner",
+            "price": 110,
+            "vego": true
+         },
+         {
+            "id": 4,
+            "name": "Al Tonno",
+            "ingredients": "Tomatsås, Ost, Tonfisk",
+            "price": 110,
+            "vego": false
+         },
+         {
+            "id": 5,
+            "name": "Bolognese",
+            "ingredients": "Tomatsås, Ost, Köttfärs",
+            "price": 110,
+            "vego": false
+         },
+         {
+            "id": 6,
+            "name": "Mia",
+            "ingredients": "Tomatsås, Ost, Salami",
+            "price": 110,
+            "vego": false
+         },
+         {
+            "id": 7,
+            "name": "Calzone",
+            "ingredients": "Tomatsås, Ost, Skinka",
+            "price": 110,
+            "vego": false
+         },
+         {
+            "id": 8,
+            "name": "Cappricciosa",
+            "ingredients": "Tomatsås, Ost, Skinka, Champinjoner",
+            "price": 115,
+            "vego": false
+         },
+         {
+            "id": 9,
+            "name": "Hawaii",
+            "ingredients": "Tomatsås, Ost, Skinka, Ananas",
+            "price": 115,
+            "vego": false
+         },
+         {
+            "id": 10,
+            "name": "Bussola",
+            "ingredients": "Tomatsås, Ost, Skinka, Räkor",
+            "price": 115,
+            "vego": false
+         },
+         {
+            "id": 11,
+            "name": "Pompei",
+            "ingredients": "Tomatsås, Ost, Bacon, Lök",
+            "price": 115,
+            "vego": false
+         },
+         {
+            "id": 12,
+            "name": "Big Ben",
+            "ingredients": "Tomatsås, Ost, Bacon, Ägg",
+            "price": 115,
+            "vego": false
+         },
+         {
+            "id": 13,
+            "name": "Marinara",
+            "ingredients": "Tomatsås, Ost, Räkor, Musslor",
+            "price": 115,
+            "vego": false
+         },
+         {
+            "id": 14,
+            "name": "Amal",
+            "ingredients": "Tomatsås, Ost, Räkor, Tonfisk",
+            "price": 115,
+            "vego": false
+         },
+         {
+            "id": 15,
+            "name": "Roberto",
+            "ingredients": "Tomatsås, Ost, Räkor, Champinjoner",
+            "price": 115,
+            "vego": false
+         },
+         {
+            "id": 16,
+            "name": "Cacciatore",
+            "ingredients": "Tomatsås, Ost, Lök, Salami",
+            "price": 115,
+            "vego": false
+         },
+         {
+            "id": 17,
+            "name": "Opera",
+            "ingredients": "Tomatsås, Ost, Skinka, Tonfisk",
+            "price": 115,
+            "vego": false
+         },
+         {
+            "id": 18,
+            "name": "Prinsessa",
+            "ingredients": "Tomatsås, Ost, Skinka, Räkor, Ananas",
+            "price": 120,
+            "vego": false
+         },
+         {
+            "id": 19,
+            "name": "Florida",
+            "ingredients": "Tomatsås, Ost, Skinka, Banan, Ananas, Curry",
+            "price": 120,
+            "vego": false
+         },
+         {
+            "id": 20,
+            "name": "Banan",
+            "ingredients": "Tomatsås, Ost, Skinka, Banan, Curry",
+            "price": 120,
+            "vego": false
+         },
+         {
+            "id": 21,
+            "name": "Riviera",
+            "ingredients": "Tomatsås, Ost, Salami, Lök, Champinjoner",
+            "price": 120,
+            "vego": false
+         },
+         {
+            "id": 22,
+            "name": "Milan",
+            "ingredients": "Tomatsås, Ost, Skinka, Gorgonzola, Fetaost",
+            "price": 120,
+            "vego": false
+         },
+         {
+            "id": 23,
+            "name": "Calzone Special",
+            "ingredients": "Tomatsås, Ost, Skinka, Räkor, Champinjoner",
+            "price": 120,
+            "vego": false
+         },
+         {
+            "id": 24,
+            "name": "Roma",
+            "ingredients": "Tomatsås, Ost, Skinka, Räkor, Champinjoner ",
+            "price": 120,
+            "vego": false
+         },
+         {
+            "id": 25,
+            "name": "Kyckling",
+            "ingredients": "Tomatsås, Ost, Kyckling, Banan, Ananas, Curry",
+            "price": 120,
+            "vego": false
+         },
+         {
+            "id": 26,
+            "name": "Vegetariana",
+            "ingredients": "Tomatsås, Ost, Lök, Ananas, Paprika, Kronärtskocka, Tomater, Oliver, Champinjoner",
+            "price": 120,
+            "vego": true
+         },
+         {
+            "id": 27,
+            "name": "Paradiso",
+            "ingredients": "Tomatsås, Ost, Köttfärs, Lök, Paprika, Champinjoner, Ägg",
+            "price": 120,
+            "vego": false
+         },
+         {
+            "id": 28,
+            "name": "Fårostpizza",
+            "ingredients": "Tomatsås, Ost, Lök, Paprika, Tomater, Oliver, Fetaost",
+            "price": 125,
+            "vego": true
+         },
+         {
+            "id": 29,
+            "name": "Stora vika",
+            "ingredients": "Tomatsås, Ost, Skinka, Köttfärs, Bacon, Paprika",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 30,
+            "name": "Målarens",
+            "ingredients": "Tomatsås, Ost, Räkor, Banan, Ananas, Champinjoner, Curry",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 31,
+            "name": "Gringo",
+            "ingredients": "Tomatsås, Ost, Skinka, Köttfärs, Bacon, Salami, Lök, Tomater",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 32,
+            "name": "Mästarens",
+            "ingredients": "Tomatsås, Ost, Skinka, Räkor, Tonfisk, Lök, Champinjoner",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 33,
+            "name": "Mona Lisa",
+            "ingredients": "Tomatsås, Ost, Skinka, Paprika, Champinjoner, Gorgonzola",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 34,
+            "name": "Husets pizza",
+            "ingredients": "Tomatsås, Ost, Skinka, Salami, Lök, Champinjoner",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 35,
+            "name": "Tefat (Dubbelinbakad)",
+            "ingredients": "Tomatsås, Ost, Skinka, Räkor, Champinjoner",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 36,
+            "name": "Torö",
+            "ingredients": "Tomatsås, Ost, Räkor, Tonfisk, Musslor, Sardeller",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 37,
+            "name": "Quattro",
+            "ingredients": "Tomatsås, Ost, Skinka, Räkor, Musslor, Kronärtskocka, Oliver, Champinjoner",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 38,
+            "name": "Sorunda",
+            "ingredients": "Tomatsås, Ost, Kyckling, Banan, Ananas, Jordnötter, Curry",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 39,
+            "name": "Maestro",
+            "ingredients": "Tomatsås, Ost, Bacon, Salami, Pepperonikorv, Lök, Tomater",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 40,
+            "name": "Columera",
+            "ingredients": "Tomatsås, Ost, Räkor, Bläckfisk, Lök",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 41,
+            "name": "Fläskfilépizza",
+            "ingredients": "Tomatsås, Ost, Oxfilé, Fläskfilé, Lök, Tomater, Champinjoner, Bearnaisesås",
+            "price": 135,
+            "vego": false
+         },
+         {
+            "id": 42,
+            "name": "Ösmo",
+            "ingredients": "Tomatsås, Ost, Oxfilé, Räkor, Färsk vitlök, Tomater, Sparris, Bearnaisesås",
+            "price": 135,
+            "vego": false
+         },
+         {
+            "id": 43,
+            "name": "Nynäs",
+            "ingredients": "Tomatsås, Ost, Oxfilé, Lök, Färsk vitlök, Tomater, Champinjoner, Ruccolasallad, Bearnaisesås",
+            "price": 135,
+            "vego": false
+         },
+         {
+            "id": 44,
+            "name": "Conny",
+            "ingredients": "Tomatsås, Ost, Oxfilé, Lök, Paprika, Tomater, Fetaost, Bearnaisesås",
+            "price": 135,
+            "vego": false
+         },
+         {
+            "id": 45,
+            "name": "Kebabpizza",
+            "ingredients": "Tomatsås, Ost, Kebabkött, Lök, Feferoni, Tomater, Vitlökssås",
+            "price": 135,
+            "vego": false
+         },
+         {
+            "id": 46,
+            "name": "Honolulu",
+            "ingredients": "Tomatsås, Ost, Oxfilé, Lök, Paprika, Tomater, Champinjoner, Bearnaisesås",
+            "price": 150,
+            "vego": false
+         },
+         {
+            "id": 47,
+            "name": "Miami",
+            "ingredients": "Tomatsås, Ost, Kyckling, Banan, Ananas, Curry",
+            "price": 140,
+            "vego": false
+         },
+         {
+            "id": 48,
+            "name": "Kansas",
+            "ingredients": "Tomatsås, Ost, Skinka, Bacon, Salami, Lök, Paprika, Tomater",
+            "price": 140,
+            "vego": false
+         },
+         {
+            "id": 49,
+            "name": "Florida special",
+            "ingredients": "Tomatsås, Ost, Oxfilé, Lök, Jalapeño, Färsk vitlök, Champinjoner, Tacokryddmix, Tacosås",
+            "price": 150,
+            "vego": false
+         },
+         {
+            "id": 50,
+            "name": "Toronto",
+            "ingredients": "Tomatsås, Ost, Fläskfilé, Lök, Feferoni, Paprika, Tomater, Bearnaisesås",
+            "price": 140,
+            "vego": false
+         },
+         {
+            "id": 51,
+            "name": "Mexicana",
+            "ingredients": "Tomatsås, Ost, Köttfärs, Lök, Jalapeño, Paprika, Tacokryddmix, Tacosås",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 52,
+            "name": "Azteka",
+            "ingredients": "Tomatsås, Ost, Skinka, Jalapeño, Tomater, Tacokryddmix, Vitlökssås",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 53,
+            "name": "Acapulco",
+            "ingredients": "Tomatsås, Ost, Oxfilé, Lök, Jalapeño, Färsk vitlök, Champinjoner, Tacokryddmix, Tacosås",
+            "price": 135,
+            "vego": false
+         },
+         {
+            "id": 54,
+            "name": "Italiana",
+            "ingredients": "Tomatsås, Ost, Mozzarellaost, Salami, Färsk vitlök, Tomater, Basilika",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 55,
+            "name": "Salamina",
+            "ingredients": "Tomatsås, Ost, Mozzarellaost, Salami, Lök, Paprika, Gorgonzola",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 56,
+            "name": "Cacatore",
+            "ingredients": "Tomatsås, Ost, Mozzarellaost, Parmaskinka, Tomater, Oliver, Ruccolasallad, Olivolja",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 57,
+            "name": "Quattro formaggio",
+            "ingredients": "Tomatsås, Ost, Mozzarellaost, Gorgonzola, Fetaost, Parmesanost",
+            "price": 125,
+            "vego": true
+         },
+         {
+            "id": 58,
+            "name": "Le Chef",
+            "ingredients": "Tomatsås, Ost, Mozzarellaost, Skinka, Salami, Färsk vitlök, Tomater, Oliver, Basilika, Parmesanost",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 59,
+            "name": "Verona",
+            "ingredients": "Tomatsås, Ost, Mozzarellaost, Salami, Pepperonikorv, Tomater, Gorgonzola",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 60,
+            "name": "Milano",
+            "ingredients": "Tomatsås, Ost, Mozzarellaost, Oxfilé, Lök, Paprika, Champinjoner, Soltorkade tomater",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 61,
+            "name": "Scampi special",
+            "ingredients": "Tomatsås, Ost, Mozzarellaost, Räkor, Scampi, Färsk vitlök, Champinjoner, Rödlök, Ruccolasallad, Soltorkade tomater",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 62,
+            "name": "Pavarotti",
+            "ingredients": "Tomatsås, Ost, Oxfilé, Scampi, Färsk vitlök, Champinjoner, Spenat, Basilika",
+            "price": 125,
+            "vego": false
+         }, 
+         {
+            "id": 63,
+            "name": "Billy special",
+            "ingredients": "Tomatsås, Ost, Mozzarellaost, Salami, Pepperonikorv, Prosciutto, Tomater, Ruccolasallad",
+            "price": 125,
+            "vego": false
+         },
+         {
+            "id": 64,
+            "name": "Mezza Luna",
+            "ingredients": "Inbakad del: Skinka.",
+            "price": 125,
+            "vego": false
+         }
+         
+
+      ]
+    },
 
     "kebab":{
-       "name":"Kebab (fusk)",
+       "name": "Kebab (fusk)",
        "meny":[
           {
              "id":1,
