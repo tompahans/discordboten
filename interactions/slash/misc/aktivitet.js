@@ -1,5 +1,5 @@
 /**
- * @file Sample help command with slash command.
+ * @file Change activity on the bot
  * @author tompahans
  * @since 3.3.3
  * @version 3.3.0
@@ -7,7 +7,11 @@
 
 // Deconstructed the constants we need in this file.
 
-const { SlashCommandBuilder, ActivityType } = require("discord.js");
+const {
+  SlashCommandBuilder,
+  ActivityType,
+  PermissionsBitField,
+} = require("discord.js");
 
 /**
  * @type {import('../../../typings').SlashInteractionCommand}
@@ -17,18 +21,22 @@ module.exports = {
 
   data: new SlashCommandBuilder()
     .setName("aktivitet")
-    .setDescription("Ändrar botens aktivitet (spelar, tittar, streamar m.m")
+    .setDescription(
+      "Ändrar botens aktivitet (spelar, tittar, streamar, lyssnar)"
+    )
     .addStringOption((option) =>
       option
-        .setName("aktivitet")
+        .setName("typ")
         .setDescription(
-          `typ av aktivitet: "spelar", "streamar", "tittar", "lyssnar"`
+          `Typ av aktivitet: "spelar", "tittar", "streamar", "lyssnar"`
         )
     )
     .addStringOption((option) =>
       option
         .setName("text")
-        .setDescription('text som syns efter aktivitet, exempel: "på musik"')
+        .setDescription(
+          'Text som syns efter aktivitet, exempel: "Spotify", "Risk", "Roulette"'
+        )
     ),
 
   async execute(interaction) {
@@ -36,24 +44,26 @@ module.exports = {
      * @type {string}
      * @description The "command" argument
      */
-    let name = interaction.options.getString("aktivitet");
+    const type = interaction.options.getString("typ").toLocaleLowerCase();
     const text = interaction.options.getString("text");
 
-    if (!interaction.memberPermissions.has("Administrator")) {
+    if (
+      !interaction.memberPermissions.has(
+        PermissionsBitField.Flags.Administrator
+      )
+    ) {
       return interaction.reply({
         content: "Du har inte rättigheter för detta kommando",
         ephemeral: true,
       });
     }
 
-    if (name && text) {
-      name = name.toLowerCase();
-
+    if (type && text) {
       // If a single command has been asked for, send only this command's help.
 
       if (interaction.client.slashCommands.has("aktivitet")) {
         const getActivity = () => {
-          switch (name) {
+          switch (type) {
             case "spelar":
               return ActivityType.Playing;
             case "streamar":
@@ -67,9 +77,7 @@ module.exports = {
           }
         };
 
-        interaction.client.user.setActivity(`${text}`, {
-          type: getActivity(),
-        });
+        interaction.client.user.setActivity(`${text}`, { type: getActivity() });
         await interaction.reply({
           content: `Sätter aktiviteten till ActivityType: **${getActivity()}** med text: *"${text}"*`,
           ephemeral: true,
@@ -77,11 +85,9 @@ module.exports = {
       }
     } else {
       await interaction.reply({
-        content: "du måste skriva in både aktivitet och text",
+        content: "Du måste mata in både typ av aktivitet och text",
         ephemeral: true,
       });
     }
-
-    // Replies to the interaction!
   },
 };
