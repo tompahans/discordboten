@@ -15,8 +15,8 @@ module.exports = {
 	 * @param {import('../typings').Client} client Main Application Client.
 	 */
 	execute(client) {
-		client.user.setActivity("!rulla <restaurant>", {
-			type: ActivityType.Playing,
+		client.user.setActivity("allt ni gör och skickar till FRA", {
+			type: ActivityType.Watching,
 		});
 
 		console.log(`Ready! Logged in as ${client.user.tag}`);
