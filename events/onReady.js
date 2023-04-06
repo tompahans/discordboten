@@ -15,7 +15,7 @@ module.exports = {
 	 * @param {import('../typings').Client} client Main Application Client.
 	 */
 	execute(client) {
-		client.user.setActivity("allt ni gör och skickar till FRA", {
+		client.user.setActivity("chatten och håller ett getöga på er", {
 			type: ActivityType.Watching,
 		});
 
