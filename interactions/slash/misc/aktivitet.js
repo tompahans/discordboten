@@ -21,20 +21,18 @@ module.exports = {
 
   data: new SlashCommandBuilder()
     .setName("aktivitet")
-    .setDescription(
-      "Ändrar botens aktivitet (spelar, tittar, streamar, lyssnar)"
-    )
+    .setDescription("Ändrar botens aktivitet (spelar, tittar, tävlar, lyssnar)")
     .addStringOption((option) =>
       option
         .setName("typ")
         .setDescription(
-          `Typ av aktivitet: "spelar", "tittar", "streamar", "lyssnar"`
+          `Typ av aktivitet: "spelar", "tittar", "tävlar", "lyssnar"`
         )
         .setRequired(true)
         .addChoices(
           { name: "Spelar", value: "spelar" },
           { name: "Tittar", value: "tittar" },
-          { name: "Streamar", value: "streamar" },
+          { name: "Tävlar", value: "tävlar" },
           { name: "Lyssnar", value: "lyssnar" }
         )
     )
