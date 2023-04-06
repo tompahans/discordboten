@@ -21,7 +21,13 @@ module.exports = {
     .addStringOption((option) =>
       option
         .setName("typ")
-        .setDescription(`typ av status: "online", "dnd", "busy"`)
+        .setDescription(`typ av status: "online", "dnd", "idle"`)
+        .setRequired(true)
+        .addChoices(
+          { name: "Online", value: "online" },
+          { name: "Idle", value: "idle" },
+          { name: "Do not Disturb", value: "dnd" }
+        )
     ),
 
   async execute(interaction) {

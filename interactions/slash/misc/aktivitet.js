@@ -30,6 +30,13 @@ module.exports = {
         .setDescription(
           `Typ av aktivitet: "spelar", "tittar", "streamar", "lyssnar"`
         )
+        .setRequired(true)
+        .addChoices(
+          { name: "Spelar", value: "spelar" },
+          { name: "Tittar", value: "tittar" },
+          { name: "Streamar", value: "streamar" },
+          { name: "Lyssnar", value: "lyssnar" }
+        )
     )
     .addStringOption((option) =>
       option
@@ -37,6 +44,7 @@ module.exports = {
         .setDescription(
           'Text som syns efter aktivitet, exempel: "Spotify", "Risk", "Roulette"'
         )
+        .setRequired(true)
     ),
 
   async execute(interaction) {
