@@ -48,11 +48,16 @@ module.exports = {
   async execute(interaction) {
     /**
      * @type {string}
-     * @description The "command" argument
+     * @description The "type" argument
      */
     const type = interaction.options.getString("typ").toLocaleLowerCase();
     const text = interaction.options.getString("text");
-
+    const interactionUser = await interaction.guild.members.fetch(
+      interaction.user.id
+    );
+    console.log(
+      `Användare: ${interactionUser.user.username}, #${interactionUser.id}\nTriggade en interaktion.`
+    );
     if (
       !interaction.memberPermissions.has(
         PermissionsBitField.Flags.Administrator
@@ -65,8 +70,6 @@ module.exports = {
     }
 
     if (type && text) {
-      // If a single command has been asked for, send only this command's help.
-
       if (interaction.client.slashCommands.has("aktivitet")) {
         const getActivity = () => {
           switch (type) {
@@ -90,6 +93,7 @@ module.exports = {
         });
       }
     } else {
+      console.log();
       await interaction.reply({
         content: "Du måste mata in både typ av aktivitet och text",
         ephemeral: true,
