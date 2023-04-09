@@ -12,85 +12,98 @@ const wait = require("node:timers/promises").setTimeout;
 
 // Pizza database
 const data = require("../../data/db.json");
+
 // Destructure phrases from words json
 const { phrases } = require("../../data/words.json");
 
 const getRandomInt = (min, max) => {
-	return Math.floor(Math.random() * (max - min + 1)) + min;
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 };
 
 function getPizza(message, args) {
-	const restaurant = Object.values(data).find((rest) =>
-		rest.name.toLowerCase().includes(args[0])
-	);
+  const restaurant = Object.values(data).find((rest) =>
+    rest.name.toLowerCase().includes(args[0])
+  );
 
-	if (restaurant) {
-		const filterMenu = () => {
-			if (
-				args.includes("vego") ||
-				args.includes("veg") ||
-				args.includes("vegetarisk")
-			) {
-				const filterVegoItems = restaurant.meny.filter(
-					(menuItem) => menuItem.vego === true
-				);
-				if (filterVegoItems?.length > 0) {
-					return filterVegoItems;
-				} else {
-					return restaurant.meny;
-				}
-			}
-			return restaurant.meny;
-		};
+  if (restaurant) {
+    const findMenu = () => {
+      if (
+        args.includes("vego") ||
+        args.includes("veg") ||
+        args.includes("vegetarisk")
+      ) {
+        const filterVegoItems = restaurant.meny.filter(
+          (menuItem) => menuItem.vego === true
+        );
+        if (filterVegoItems?.length > 0) {
+          return filterVegoItems;
+        } else {
+          return restaurant.meny;
+        }
+      }
+      if (args.includes("köttfifan")) {
+        const filterMeatItems = restaurant.meny.filter(
+          (menuItem) => menuItem.vego !== true
+        );
+        if (filterMeatItems?.length > 0) {
+          return filterMeatItems;
+        } else {
+          return restaurant.meny;
+        }
+      }
 
-		const menu = filterMenu();
-		const menuItem = menu[getRandomInt(0, menu.length - 1)];
+      return restaurant.meny;
+    };
 
-		/**
-		 * @type {EmbedBuilder}
-		 * @description what type of pizza you rolled in an embed
-		 */
-		const emptyEmbed = new EmbedBuilder()
-			.setColor("Grey")
-			.setTitle("Rullar...");
+    const menu = findMenu();
 
-		const pizzaEmbed = new EmbedBuilder()
-			.setColor("Random")
-			.setTitle(
-				`Du rullade en **#${menuItem.id}. ${menuItem.name}** från **${restaurant.name}**`
-			)
-			.setDescription(
-				`${menuItem.ingredients}. ${
-					menuItem.price ? "*Pris: " + menuItem.price + " SEK*" : ""
-				}\n*${phrases[getRandomInt(0, phrases.length - 1)]}*`
-			)
-			.setThumbnail("https://i.imgur.com/eyh8BVB.gif");
+    const menuItem = menu[getRandomInt(0, menu.length - 1)];
 
-		return message
-			.reply({ embeds: [emptyEmbed] })
-			.then(wait(2000))
-			.then((sentMessage) => sentMessage.edit({ embeds: [pizzaEmbed] }));
-	} else {
-		return message.reply(`Restaurangen kunde inte hittas`);
-	}
+    /**
+     * @type {EmbedBuilder}
+     * @description what type of pizza you rolled in an embed
+     */
+    const emptyEmbed = new EmbedBuilder()
+      .setColor("Grey")
+      .setTitle("Rullar...");
+
+    const pizzaEmbed = new EmbedBuilder()
+      .setColor("Random")
+      .setTitle(
+        `Du rullade en **#${menuItem.id}. ${menuItem.name}** från **${restaurant.name}**`
+      )
+      .setDescription(
+        `${menuItem.ingredients}. ${
+          menuItem.price ? "*Pris: " + menuItem.price + " SEK*" : ""
+        }\n*${phrases[getRandomInt(0, phrases.length - 1)]}*`
+      )
+      .setThumbnail("https://i.imgur.com/eyh8BVB.gif");
+
+    return message
+      .reply({ embeds: [emptyEmbed] })
+      .then(wait(2000))
+      .then((sentMessage) => sentMessage.edit({ embeds: [pizzaEmbed] }));
+  } else {
+    return message.reply(`Restaurangen kunde inte hittas`);
+  }
 }
 
 /**
  * @type {import('../../typings').LegacyCommand}
  */
 module.exports = {
-	name: "rulla",
-	description: "Skriv !rulla <restaurang>",
-	aliases: ["commands"],
-	usage: "[rulla <restaurang>]",
-	args: true,
-	cooldown: 5,
-	// Refer to typings.d.ts for available properties.
+  name: "rulla",
+  description: "Skriv !rulla <restaurang>",
+  aliases: ["commands"],
+  usage: "[rulla <restaurang>]",
+  args: true,
+  cooldown: 5,
+  // Refer to typings.d.ts for available properties.
 
-	execute(message, args) {
-		if (!args.length) {
-			return message.reply({ content: "Förstår inte frågan" });
-		}
-		getPizza(message, args);
-	},
+  execute(message, args) {
+    if (!args.length) {
+      return message.reply({ content: "Förstår inte frågan" });
+    }
+    getPizza(message, args);
+  },
 };

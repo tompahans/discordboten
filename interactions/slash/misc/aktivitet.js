@@ -50,7 +50,7 @@ module.exports = {
      * @type {string}
      * @description The "type" argument
      */
-    const type = interaction.options.getString("typ").toLocaleLowerCase();
+    const type = interaction.options.getString("typ").toLowerCase();
     const text = interaction.options.getString("text");
     const interactionUser = await interaction.guild.members.fetch(
       interaction.user.id
@@ -88,7 +88,7 @@ module.exports = {
 
         interaction.client.user.setActivity(`${text}`, { type: getActivity() });
         await interaction.reply({
-          content: `Sätter aktiviteten till ActivityType: **${getActivity()}** med text: *"${text}"*`,
+          content: `Sätter aktiviteten till "${type}" "${text}"`,
           ephemeral: true,
         });
       }
