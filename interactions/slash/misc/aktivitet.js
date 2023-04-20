@@ -93,7 +93,6 @@ module.exports = {
         });
       }
     } else {
-      console.log();
       await interaction.reply({
         content: "Du måste mata in både typ av aktivitet och text",
         ephemeral: true,

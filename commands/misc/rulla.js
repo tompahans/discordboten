@@ -7,7 +7,12 @@
 // Deconstructing prefix from config file to use in help command
 
 // Deconstructing EmbedBuilder to create embeds within this command
-const { EmbedBuilder } = require("discord.js");
+const {
+  EmbedBuilder,
+  ActionRowBuilder,
+  ButtonBuilder,
+  ButtonStyle,
+} = require("discord.js");
 const wait = require("node:timers/promises").setTimeout;
 
 // Pizza database
@@ -16,14 +21,23 @@ const data = require("../../data/db.json");
 // Destructure phrases from words json
 const { phrases } = require("../../data/words.json");
 
-const getRandomInt = (min, max) => {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-};
+// TODO: Fix buttons
+
+const reroll = new ButtonBuilder()
+  .setCustomId("reroll")
+  .setLabel("Rulla igen?")
+  .setStyle(ButtonStyle.Primary);
+const row = new ActionRowBuilder().addComponents(reroll); // eslint-disable-line
+
+// END OF TODO
 
 function getPizza(message, args) {
   const restaurant = Object.values(data).find((rest) =>
-    rest.name.toLowerCase().includes(args[0])
+    rest.name.toLowerCase().includes(args[0].toLowerCase())
   );
+  const getRandomInt = (min, max) => {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  };
 
   if (restaurant) {
     const findMenu = () => {
@@ -82,7 +96,8 @@ function getPizza(message, args) {
     return message
       .reply({ embeds: [emptyEmbed] })
       .then(wait(2000))
-      .then((sentMessage) => sentMessage.edit({ embeds: [pizzaEmbed] }));
+      .then((sentMessage) => sentMessage.edit({ embeds: [pizzaEmbed] }))
+      .catch((error) => console.log(error));
   } else {
     return message.reply(`Restaurangen kunde inte hittas`);
   }
@@ -91,13 +106,14 @@ function getPizza(message, args) {
 /**
  * @type {import('../../typings').LegacyCommand}
  */
+
 module.exports = {
   name: "rulla",
   description: "Skriv !rulla <restaurang>",
   aliases: ["commands"],
   usage: "[rulla <restaurang>]",
   args: true,
-  cooldown: 5,
+  cooldown: 10,
   // Refer to typings.d.ts for available properties.
 
   execute(message, args) {
